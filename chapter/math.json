@@ -1,0 +1,1904 @@
+{
+  "msg": "success",
+  "code": 200,
+  "data": {
+    "currentIndex": null,
+    "examId": null,
+    "examTime": null,
+    "examComplete": 0,
+    "questionList": [
+      {
+        "id": "794933553929408513",
+        "title": "<p>某电子商务公司要从A地向B地的用户发送一批价值90000元的货物。从A地到B地有水、陆两条路线。走陆路时比较安全，其运输成本为10000元；走水路时一般情况下的运输成本只要7000元，不过一旦遇到暴风雨天气，则会造成相当于这批货物总价值的10%的损失。根据历年情况，这期间出现暴风雨天气的概率为1/4，那么该电子商务公司 （） 。</p>",
+        "analyze": "<p>这是一个不确定性决策问题，其决策树如下图所示：</p><p><img style=\"max-width:100%;height:auto\"  title=\"1b79ed441136b1c53133892f36f631cc.jpg\" alt=\"1.jpg\" src=\"https://image-t.chaiding.com/ruankao/1b79ed441136b1c53133892f36f631cc.jpg-ruankao\"/></p><p>由于该问题本身带有不确定因素，因此实际的运输成本不能预先确定。不过，对掌握一定概率分布的不确定性问题，该电子商务公司可以通过计算数学期望值进行比较决策，而不是盲目碰运气或一味害怕、躲避风险。</p><p>根据上述决策树，走水路时，成本为7000元的概率为75%，成本为16 000元的概率为25%，因此走水路的期望成本为（7000×75%+16000×25%=9250。走陆路时，其成本确定为10 000元。因此，走水路的期望成本小于走陆路的成本，所以应该选择走水路。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "A",
+        "chooseItem": ["794933555808456705"],
+        "itemList": [
+          {
+            "id": "794933555808456705",
+            "questionId": "794933553929408513",
+            "content": "应选择走水路",
+            "answer": 1,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933555829428225",
+            "questionId": "794933553929408513",
+            "content": "应选择走陆路",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933555846205441",
+            "questionId": "794933553929408513",
+            "content": "难以选择路线",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933555867176961",
+            "questionId": "794933553929408513",
+            "content": "可以随机选择路线",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933605754228737",
+        "title": "<p>某厂生产某种电视机，销售价为每台2500元，去年的总销售量为25000台，固定成本总额为250万元，可变成本总额为4000万元，税率为16%，则该产品年销售量的盈亏平衡点为（）台。(只有在年销售量超过它时才能有盈利)。</p>",
+        "analyze": "<p>设盈亏平衡点上的销量是x台，销售总额为25000×2500=6250万，其中可变成本占比4000/6250=64%，由此得出下面等式：</p><p>2500x=2500000+2500x×64%+2500x×16%，解得x=5000。即，盈亏平衡点上的销量是5000台。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "A",
+        "chooseItem": ["794933607612305409"],
+        "itemList": [
+          {
+            "id": "794933607612305409",
+            "questionId": "794933605754228737",
+            "content": "5000",
+            "answer": 1,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933607633276929",
+            "questionId": "794933605754228737",
+            "content": "10000",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933607654248449",
+            "questionId": "794933605754228737",
+            "content": "15000",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933607675219969",
+            "questionId": "794933605754228737",
+            "content": "20000",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933494252851201",
+        "title": "<p><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\">某博览会每天8:00开始让观众通过各入口处检票进场，8:00前已经有很多观众在排队等候。假设8:00后还有不少观众均匀地陆续到达，而每个入口处对每个人的检票速度都相同。根据以往经验，若开设8个入口，则需要60分钟才能让排队观众全部入场；若开设10个入口，则需要40分钟才能消除排队现象。为以尽量少的入口数确保20分钟后消除排队现象，博览会应在8:00和8:20开设的入口数分别为（ ）</span><br/></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p>",
+        "analyze": "<p>设早上8点时已有S人在排队等候，以后每分钟新来m人，每个人口处每分钟进场n人，则</p><p>JS+60m=8*60n &nbsp;&nbsp;（1），</p><p>S+40m=10*40n &nbsp;&nbsp;（2），</p><p>（1）（2）两式相减得m=4n，而S=240n。</p><p>若要在20分钟由K个入口消除排队，则S+20m=20Kn，则K=16。</p><p>即8:00时，若开设16个入口，就可以在20分钟消除排队现象。</p><p>由于8:20后，每分钟新来m=4n人，所以应设4个入口，参观者就可以随来随进。</p><p>参考答案：C</p><p><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span><br/></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933496526163969"],
+        "itemList": [
+          {
+            "id": "794933496484220929",
+            "questionId": "794933494252851201",
+            "content": "12,2",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933496505192449",
+            "questionId": "794933494252851201",
+            "content": "14,4",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933496526163969",
+            "questionId": "794933494252851201",
+            "content": "16,4",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933496551329793",
+            "questionId": "794933494252851201",
+            "content": "18,6",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933477542744065",
+        "title": "<p><br/></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; font-size: 10.5pt;\">&nbsp;</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">线性规划问题不可能</span></span><span style=\"text-decoration:underline;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span>52）</span></span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">。</span></span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p>",
+        "analyze": "<p><br/></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">试题解析：</span></span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">线性规划问题的可行解区是一个凸集。如果线性规划问题存在两个最优解，则连接这两个解点的线段上所有的点都必然是可行解。</span></span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">参考答案：（</span></span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\">52）C</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933479769919489"],
+        "itemList": [
+          {
+            "id": "794933479740559361",
+            "questionId": "794933477542744065",
+            "content": "没有最优解",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933479757336577",
+            "questionId": "794933477542744065",
+            "content": "只有一个最优解",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933479769919489",
+            "questionId": "794933477542744065",
+            "content": "只有2个最优解",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933479786696705",
+            "questionId": "794933477542744065",
+            "content": "有无穷多个最优解",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933615115915265",
+        "title": "<p>某地天然气输送管线网络图如下，每段管线旁的数字表示输气能力(单位：万立方米/小时）根据该图，从源S到目的地T的最大输气能力为 （66） 万立方米/小时。<br/></p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/fae9dd71acb076f79b04b853fa19554c.jpg-ruankao\" title=\"fae9dd71acb076f79b04b853fa19554c.jpg\" alt=\"111.jpg\"/></p><br/>",
+        "analyze": "<p>如下图所示：</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/bd267d9eba1f7f52602bb1b8919425d3.jpg-ruankao\" title=\"bd267d9eba1f7f52602bb1b8919425d3.jpg\" alt=\"111.jpg\"/></p><p>①u3000从S节点出发，经过A节点的流量，可以分为AT、ABT两条线路，流量均为2。AT、AB、BT的流量减去2后均为0，因此把AT、AB、BT均标记为断开。由于A节点已经没有了到达其他节点的线路，可以认为SA线路所有流量最大为4。</p><p>②u3000从S节点出发，经过B节点的流量，经BCT线路即可用完，流量为3。把SB、BC、CT的流量减去3后，SB、CT均为0，标记为断开，BC剩余1。SB线路最大流量3已用完。</p><p>③u3000同理，SCDT线路的流量为4，SC最大流量4已用完，SC标记为断开，CD剩余1，DT剩余2。</p><p>④u3000SDT线路的流量为1，把SD的流量用完。</p><p>综上可得，所有线路的最大输气能力可达4+3+4+1=12。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "D",
+        "chooseItem": ["794933617062072321"],
+        "itemList": [
+          {
+            "id": "794933617015934977",
+            "questionId": "794933615115915265",
+            "content": "6",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933617032712193",
+            "questionId": "794933615115915265",
+            "content": "8",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933617049489409",
+            "questionId": "794933615115915265",
+            "content": "10",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933617062072321",
+            "questionId": "794933615115915265",
+            "content": "12",
+            "answer": 1,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933516516216833",
+        "title": "<p><br/></p><p class=\"MsoNormal\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">某批发站准备向甲、乙、丙、丁四家小商店供应</span>5箱商品。批发站能取得的利润（单位：百元）与分配的箱数有关（见下表）。</span></p><p class=\"MsoNormal\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/8dd31e307245c2ba8ee2149c7e9f5b41.png-ruankao\"/></p><p class=\"MsoNormal\"><span style=\"font-family:宋体\">批发站为取得最大总利润，应分配</span><span style=\"font-family: 宋体; font-size: 10.5pt; text-indent: 0pt;\">__(57)__。</span><br/></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p>",
+        "analyze": "<p><br/></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 21pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">该批发站如将</span>5箱都分配给1家，则最大总利润为9百元（给乙5箱)；</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">如分配给</span>2家（1-4箱或2-3箱)，则最大总利润分别为12或13百元；</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">如分配给</span>3家（1-1-3箱)，则最大总利润为15百元；</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">如分配给</span>3家（1-2-2箱），则最大总利润为16百元（给甲、丙各2箱，给丁1箱); </span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">如分配给</span>4家（1-1-1-2箱)，则最大总利润为16百元（给甲、乙、丁各1箱，给丙2箱)。</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">因此，该批发站有两种最优分配方案能取得最大利润</span>16百元。这两种方案中，都需要给丙分配2箱。</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"font-family: 宋体; font-size: 10.5pt; background: #7F7F7F;\"><span style=\"font-family:宋体\">参考答案</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">：</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">57）C&nbsp;</span><span style=\"font-family: 宋体; font-size: 10.5pt;\"></span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933518445596673"],
+        "itemList": [
+          {
+            "id": "794933518399459329",
+            "questionId": "794933516516216833",
+            "content": "给甲、丙各1箱",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933518424625153",
+            "questionId": "794933516516216833",
+            "content": "给乙2箱",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933518445596673",
+            "questionId": "794933516516216833",
+            "content": "给丙2箱",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933518470762497",
+            "questionId": "794933516516216833",
+            "content": "给丁2箱",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933594278612993",
+        "title": "<p>某网络公司为了扩大华北市场，希望在北京举行一个展销会，会址打算选择在北京市内的A、B、C3个会场之一。获利情况与天气有关。通过天气预报了解到展销会当日天气为晴、多云、雨的概率，收益和会场租赁费用如下表所示，那么该公司所做的决策是（65）。</p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/ef29411ac507658e412b09011f88677e.jpg-ruankao\" title=\"ef29411ac507658e412b09011f88677e.jpg\" alt=\"1.jpg\"/>",
+        "analyze": "<p>期望货币价值(Expected Monetary Value，EMV)，又称为预期货币值、风险暴露值、风险期望值；是为了确定一项投机的期望货币价值，计算每一种可能出现的结果的货币收益（或损失）与其出现的概率相乘以后的和；</p><p>比如：一件商品有70%的概率可以获利20元，有30%的概率会导致损失30元，此时便可算出EMV=0.7*20+(-30)*0.3=5；</p><p>期望货币价值是定量风险分析的一种技术，常和决策树一起使用，它是将特定情况下可能的风险造成的货币后果和发生概率相乘，包含了现金和风险的考虑；</p><p>机会的EMV通常表示为正值，而威胁的EMV则表示为负值。</p><p>本题中：</p><p>选择A会场的期望货币值：4×0.25+6×0.5+1×0.25-3.6=0.65(万元)。</p><p>选择B会场的期望货币值：5×0.25+4×0.5+1.6×0.25-3.2=0.45(万元)。</p><p>选择C会场的期望货币值：6×0.25+2×0.5+1.2×0.25-3=-0.20(万元)。</p><p>由于0.65＞0.45＞-0.20，因此从货币期望值最大决策考虑，建议把会场设在A处。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "A",
+        "chooseItem": ["794933596161855489"],
+        "itemList": [
+          {
+            "id": "794933596161855489",
+            "questionId": "794933594278612993",
+            "content": "选择A会场",
+            "answer": 1,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933596191215617",
+            "questionId": "794933594278612993",
+            "content": "选择B会场",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933596224770049",
+            "questionId": "794933594278612993",
+            "content": "选择C会场",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933596254130177",
+            "questionId": "794933594278612993",
+            "content": "难以选择会场",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933620870500353",
+        "title": "<p>甲、乙、丙、丁四个任务分配在A．B．C．D四台机器上执行，每台机器执行一个任务，所需的成本（单位:百元）如表1所示。最低的总成本是 （68） 。<br/></p><p>表1 习题用表</p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/27726a81e1000f9638ab7f08a56f9e92.png-ruankao\" title=\"27726a81e1000f9638ab7f08a56f9e92.png\" alt=\"image.png\" width=\"690\" height=\"131\"/>",
+        "analyze": "<p>1.使各行各列中都出现0元素，每行元素都减去该行的最小元素；每列元素中减去该列的最小元素。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/56718269084405eaa846933373375229.jpg-ruankao\" title=\"56718269084405eaa846933373375229.jpg\" alt=\"111.jpg\"/>2.试指派</p><p>1）从含0元素最少的行开始，给该行中的0元素加圈。然后划去◎所在列的其它0元素，记作?，依次进行到最后一行。</p><p>2）从含0元素最少的列开始（画?的不计在内），给该列中的0元素加圈；然后划去◎所在行的0元素，记作?，依次进行到最后一列。</p><p>3）反复进行，直到所有0元素都已圈出和划掉为止。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/dbe92fa7fde0b548b7013e8cec11fcdb.jpg-ruankao\" title=\"dbe92fa7fde0b548b7013e8cec11fcdb.jpg\" alt=\"111.jpg\"/>如果得到n个◎（本题为4），则得到最优解，算法结束。</p><p>本题中，这里得不到4个0，但观察元素（3，2）值为1，元素（1，1），（2，3），（3，2），（4，4）的总和值最小，因此这是最优解之一。</p><p>回到原题，元素（1，1），（2，3），（3，2），（4，4）的总和值为22。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933622816657409"],
+        "itemList": [
+          {
+            "id": "794933622778908673",
+            "questionId": "794933620870500353",
+            "content": "20",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933622795685889",
+            "questionId": "794933620870500353",
+            "content": "21",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933622816657409",
+            "questionId": "794933620870500353",
+            "content": "22",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933622837628929",
+            "questionId": "794933620870500353",
+            "content": "23",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933513630535681",
+        "title": "<p><br/></p><p class=\"MsoNormal\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">下面的网络图表示从城市</span>A到城市B运煤的各种路线。各线段上的数字表示该线段运煤所需的费用（百元/车）。城市A有三个装货点，城市B有三个卸货点，各点旁标注的数字表示装/卸煤所需的费用（百元/车）。根据该图，从城市A的一个装卸点经过一条路线到城市B的一个卸货点所需的装、运、卸总费用至少为</span><span style=\"text-decoration:underline;\"><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span>56）</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">（百元</span>/车）。</span></p><p class=\"MsoNormal\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/84ecb9ee8560918864e98182758ff0ef.png-ruankao\"/></span></p>",
+        "analyze": "<p><span style=\"font-family:宋体\">从</span><span style=\"font-family: 宋体; font-size: 10.5pt; text-indent: 21pt;\">A线出发经过中间5点可以到达B线。首先，很容易计算并标注各条路线从第5点到达B线并卸货的最少费用，可将其标注在相应的点旁。据此就容易计算并标注从第4点到达B线并卸货的最少费用，并将其标注在相应的点旁，依次类推。</span><br/></p><p><span style=\"font-family: 宋体; font-size: 10.5pt; text-indent: 21pt;\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/e4eb89cdb2d1fbe5ce436eea4fca92ce.png-ruankao\"/></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">从</span>A的下端出发，向上、上、下、上、上、下到达B的中间点，总费用=3+（2+2+3+2+2+3) + 2=19 (百元/车）最少。</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"font-family: 宋体; font-size: 10.5pt; background: #7F7F7F;\"><span style=\"font-family:宋体\">参考答案</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">：</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">56）A</span><span style=\"font-family: 宋体; font-size: 10.5pt;\"></span></p><p><span style=\"font-family: 宋体; font-size: 10.5pt; text-indent: 21pt;\"><br/></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 21pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "A",
+        "chooseItem": ["794933515555721217"],
+        "itemList": [
+          {
+            "id": "794933515555721217",
+            "questionId": "794933513630535681",
+            "content": "19",
+            "answer": 1,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933515572498433",
+            "questionId": "794933513630535681",
+            "content": "20",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933515589275649",
+            "questionId": "794933513630535681",
+            "content": "21",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933515606052865",
+            "questionId": "794933513630535681",
+            "content": "22",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933591460040705",
+        "title": "<p>在军事演习中，张司令希望将部队尽快从A地通过公路网(如图所示)运送到F地：</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/65d4159a6f87436ca2948f44d363469f.jpg-ruankao\" title=\"65d4159a6f87436ca2948f44d363469f.jpg\" alt=\"1.jpg\"/></p><p>图中标出了各路段上的最大运量(单位：千人/小时)。根据该图可以算出，从A地到F地的最大运量是（64）千人/小时。</p>",
+        "analyze": "<p>该题解题关系是需要将图中节点的输入/输出流量调整平衡，因为只有输入/输出流量平衡才能表现出真实的运量。</p><p>如图所示，对于节点E，他的输出运力为15，而所有输入运力之和为14，则E的最大真实运力，只能达到14，所以将E的输出运力修改为14。对于D节点，其输出运力和为7，而输入运力为8，则需要平衡为7。节点B也需要调，但情况比较复杂，我们需要综合分析B的输出运力与C的输出运力，分析可知，当B到C的运力调整为1时，既能达到节点运力的平衡，又能使运力最大，所以应调整为1。当完成这些调整之后，可轻易得出结论，最大运力为22。</p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/452f40b508be8053a926355f773f0a80.jpg-ruankao\" title=\"452f40b508be8053a926355f773f0a80.jpg\" alt=\"1.jpg\"/>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933593351671809"],
+        "itemList": [
+          {
+            "id": "794933593322311681",
+            "questionId": "794933591460040705",
+            "content": "20",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933593339088897",
+            "questionId": "794933591460040705",
+            "content": "21",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933593351671809",
+            "questionId": "794933591460040705",
+            "content": "22",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933593368449025",
+            "questionId": "794933591460040705",
+            "content": "23",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933531884146689",
+        "title": "<p><span style=\"text-indent: 20.55pt; font-family: New; font-size: 10.5pt;\"><span style=\"font-family:宋体\">袋子里有</span></span><span style=\"text-indent: 20.55pt; font-family: 宋体; font-size: 10.5pt;\">5</span><span style=\"text-indent: 20.55pt; font-family: New; font-size: 10.5pt;\">0<span style=\"font-family:宋体\">个乒乓球，其中</span><span style=\"font-family:New\">20</span><span style=\"font-family:宋体\">个黄球，</span><span style=\"font-family:New\">30</span><span style=\"font-family:宋体\">个白球。现在两个人依次不放回地从袋子中取出一个球，第二个人取出黄球的概率是</span></span><span style=\"text-decoration:underline;\"><span style=\"font-family: New; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（ &nbsp;&nbsp;</span></span></span><span style=\"text-decoration:underline;\"><span style=\"font-family: New; font-size: 10.5pt;\"><span style=\"font-family:宋体\">）</span></span></span><span style=\"text-indent: 20.55pt; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">。</span></span></p>",
+        "analyze": "<p><br/></p><p class=\"MsoNormal\" style=\"text-indent: 20.55pt;\"><span style=\"font-family: New; font-size: 10.5pt;\"><span style=\"font-family:宋体\">第二个人取出黄球的概率是</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">2/5*19/49+3/5*20/49=2/5<span style=\"font-family:宋体\">。</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 20.7pt; text-indent: 0pt;\"><span style=\"font-family: Calibri; font-size: 10.5pt; background: #7F7F7F;\"><span style=\"font-family:黑体\">参考答案</span></span><span style=\"font-family: Calibri; font-size: 10.5pt;\"><span style=\"font-family:宋体\">：</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">&nbsp;C&nbsp;</span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933533792555009"],
+        "itemList": [
+          {
+            "id": "794933533750611969",
+            "questionId": "794933531884146689",
+            "content": "1/5",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933533767389185",
+            "questionId": "794933531884146689",
+            "content": "3/5",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933533792555009",
+            "questionId": "794933531884146689",
+            "content": "2/5",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933533813526529",
+            "questionId": "794933531884146689",
+            "content": "4/5",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933507443937281",
+        "title": "<p><br/></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"font-family: 宋体; font-size: 10.5pt;\">&nbsp;</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">设甲乙丙三人独立解决某个问题的概率分别为</span>0.45、0.55、0.6，则三人一起解决该问题的概率约为</span><span style=\"text-decoration:underline;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span>53）</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">。</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p>",
+        "analyze": "<p><br/></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 21pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">根据题意，三人一起无法解决该问题的概率为（</span>1-0.45) x (1-0.55) x (1-0.6)=0.099。所以，三人一起能解决该问题的概率为1-0.099=0.901。</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">另一种解题思路是：甲解决了该问题的</span>0.45部分，余下0.55部分没有解决。此时，乙能解决其中的0.55部分，即乙能解决总体的0.55x0.55=0.3025部分。甲乙共解决了45+0.3025=0.7525部分，余下0.2475部分没有解决。丙在其中解决了0.6,即丙解决了总体的0.2475x0.6=0.1485部分。甲乙丙三人共解决了问题0.7525+0.1485=0.901部分。</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"font-family: 宋体; font-size: 10.5pt; background: #7F7F7F;\"><span style=\"font-family:宋体\">参考答案</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">：</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">53）D&nbsp;</span><span style=\"font-family: 宋体; font-size: 10.5pt;\"></span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "D",
+        "chooseItem": ["794933509780164609"],
+        "itemList": [
+          {
+            "id": "794933509717250049",
+            "questionId": "794933507443937281",
+            "content": "0.53",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933509738221569",
+            "questionId": "794933507443937281",
+            "content": "0.7",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933509759193089",
+            "questionId": "794933507443937281",
+            "content": "0.8",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933509780164609",
+            "questionId": "794933507443937281",
+            "content": "0.9",
+            "answer": 1,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933559671410689",
+        "title": "<p>S公司开发一套信息管理软件，其中一个核心模块的性能对整个系统的市场销售前景影响极大，该模块可以采用S公司自己研发、采购代销和有条件购买三种方式实现。S公司的可能利润（单位万元）收入如下表。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/7761901c50cfff59adf03976df291687.jpg-ruankao\" title=\"7761901c50cfff59adf03976df291687.jpg\" alt=\"1.jpg\"/></p><p>按经验，此类管理软件销售50万套，20万套，5万套和销售不出的概率分别为15%，25%，40%和20%，则S公司应选择 （ ） 方案。</p>",
+        "analyze": "<p>自己研发的可能利润值为：</p><p>45000015%+200000250%-5000040%-15000020%=67500&nbsp;</p><p>采购代销的可能利润值为：</p><p>6500015%+6500025%+6500040%+6500020%=65000&nbsp;</p><p>有条件购买的可能利润值为：25000015%+10000025%=62500&nbsp;</p><p>因此，S公司应选择A方案以获得最高可能利润。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "A",
+        "chooseItem": ["794933561550458881"],
+        "itemList": [
+          {
+            "id": "794933561550458881",
+            "questionId": "794933559671410689",
+            "content": "自己研发",
+            "answer": 1,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933561567236097",
+            "questionId": "794933559671410689",
+            "content": "采购代销",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933561579819009",
+            "questionId": "794933559671410689",
+            "content": "有条件购买",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933561596596225",
+            "questionId": "794933559671410689",
+            "content": "条件不足无法选择",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933551098253313",
+        "title": "<p>在如下线性约束条件下：2x+3y&lt;=30；x+2y&gt;=10；x&gt;=y；x&gt;=5；y&gt;=0，目标函数2x+3y的极小值为（ ）。</p>",
+        "analyze": "<p>根据题意，画出可行区域，如图虚线阴影部分。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/4b48cf41cddd71bd6669e6282988b3b4.jpg-ruankao\" title=\"4b48cf41cddd71bd6669e6282988b3b4.jpg\" alt=\"1.jpg\"/></p><p>显然，x=5与x+2y=10相交处时有最小值，联立得x=5，y=2.5，因此2x+3y最小值为10+7.5=17.5。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "B",
+        "chooseItem": ["794933552977301505"],
+        "itemList": [
+          {
+            "id": "794933552956329985",
+            "questionId": "794933551098253313",
+            "content": "16.5",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933552977301505",
+            "questionId": "794933551098253313",
+            "content": "17.5",
+            "answer": 1,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933552998273025",
+            "questionId": "794933551098253313",
+            "content": "20",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933553019244545",
+            "questionId": "794933551098253313",
+            "content": "25",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933542592204801",
+        "title": "<p><br/></p><p><br/></p><p><br/></p><p>设三个煤场 A1、A2、A3 分别能供应煤 7、12、11 万吨，三个工厂 B1、 B2、B3 分别需要煤 10、10、10 万吨，从各煤场到各工厂运煤的单价（百元／吨）见下表方框内的数字。只要选择最优的运输方案，总的运输成本就能降到（ ）百万元。</p><br/><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/992fbdd613cf4939986151ce9dfc7245.jpg-ruankao\" title=\"992fbdd613cf4939986151ce9dfc7245.jpg\" alt=\"1.jpg\"/>",
+        "analyze": "<p>优先考虑单位运价最小的供应业务，最大限度满足其供应量。可供应的煤量用完的煤场或者需求已经全部满足的工厂，将不再考虑。然后继续按照上述方法安排运输方案，直到得到一个运费最小的方案。结果为：2*10+10+7+3=40（百万元）</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "B",
+        "chooseItem": ["794933544488030209"],
+        "itemList": [
+          {
+            "id": "794933544467058689",
+            "questionId": "794933542592204801",
+            "content": "30",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933544488030209",
+            "questionId": "794933542592204801",
+            "content": "40",
+            "answer": 1,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933544504807425",
+            "questionId": "794933542592204801",
+            "content": "50",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933544521584641",
+            "questionId": "794933542592204801",
+            "content": "61",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933504138825729",
+        "title": "<p><br/></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">某部门邀请</span>3位专家对12个项目进行评选，每个专家选了5个项目。评选的结果中，有a个项目被3人都选中，有b个项目被2个选中，有c个项目被1人选中，有2个项目无人选中。据此，可以推断</span><span style=\"text-decoration:underline;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span>52）</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">。</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p>",
+        "analyze": "<p><br/></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt;\"><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">试题分析</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"text-indent: 20.7pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">根据题意：</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"text-indent: 20.7pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">a+b+c=12-2=10①</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"text-indent: 20.7pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">3a+2b+c=3X5=15②</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"text-indent: 20.7pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">由</span>2①- ②可得c-a=5。</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">a=0时，c=5，b=5，c=a+b；</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">a=1时，c=6，b=3，c＞a+b；</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">a=2时，c=7，b=1，c＞a+b；</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">a＞2时，c＞7，a+c至少为11，与a+b+c=10矛盾。</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">根据上述情况，可以推断供选答案</span>D是正确的。</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"font-family: 宋体; font-size: 10.5pt; background: #7F7F7F;\"><span style=\"font-family:宋体\">参考答案</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">：</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">52）D&nbsp;</span><span style=\"font-family: 宋体; font-size: 10.5pt;\"></span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "D",
+        "chooseItem": ["794933506407944193"],
+        "itemList": [
+          {
+            "id": "794933506357612545",
+            "questionId": "794933504138825729",
+            "content": "a&gt;2",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933506374389761",
+            "questionId": "794933504138825729",
+            "content": "b&gt;5",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933506391166977",
+            "questionId": "794933504138825729",
+            "content": "b为偶数",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933506407944193",
+            "questionId": "794933504138825729",
+            "content": "c≥a+b",
+            "answer": 1,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933487462273025",
+        "title": "<p><br/></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">某公司拟将</span>5百万元资金投放下属A、B、C三个子公司（以百万元的倍数分配投资），各子公司获得部分投资后的收益如下表所示（以百万元为单位）。该公司投资的总收益至多为</span><span style=\"text-decoration:underline;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span>56）</span></span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">百万元。</span></span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/149cb38b3fe49266dbedd9bd3ca04c3b.png-ruankao\"/></span></span></p>",
+        "analyze": "<p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/1d67b5d0b12084c9535c2354112ddc6b.png-ruankao\"/></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "D",
+        "chooseItem": ["794933489886580737"],
+        "itemList": [
+          {
+            "id": "794933489836249089",
+            "questionId": "794933487462273025",
+            "content": "4.8",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933489853026305",
+            "questionId": "794933487462273025",
+            "content": "5",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933489869803521",
+            "questionId": "794933487462273025",
+            "content": "5.2",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933489886580737",
+            "questionId": "794933487462273025",
+            "content": "5.5",
+            "answer": 1,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933500850491393",
+        "title": "<p><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">某风险投资公司拥有的总资金数为</span>25，分期为项目P1、P2、P3、P4投资，各项目投资情况如下表所示。</span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">若</span>P1和P3分别申请资金数1和2，则公司资金管理处</span><span style=\"text-decoration:underline;\"><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span>51）</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">。</span></span><br/></p><p><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/9d459ffac1cd305fa6b0214dc8cc677d.png-ruankao\"/></span></span></p>",
+        "analyze": "<p><br/></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 20.7pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">因为在图</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">中</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">的情况下，公司资金管理处为</span>P3分配资金2个单位后，能保证项目P3得到所需的最大资金完成项目，归还资金，使得公司的可用资金为8, 而项目P1、P2、P4的尚需资金分别为4、7、6,均小于可用资金，故为项目P3进行投资，投资后公司资金周转状态是安全的。</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"font-family: 宋体; font-size: 10.5pt; background: #7F7F7F;\"><span style=\"font-family:宋体\">参考答案</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">：</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">&nbsp;（51）B</span><span style=\"font-family: 宋体; font-size: 10.5pt;\"></span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "B",
+        "chooseItem": ["794933503077666817"],
+        "itemList": [
+          {
+            "id": "794933503060889601",
+            "questionId": "794933500850491393",
+            "content": "只能先为项目P1进行投资，因为投资后公司资金周转状态是安全的",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933503077666817",
+            "questionId": "794933500850491393",
+            "content": "只能先为项目P3进行投资，因为投资后公司资金周转状态是安全的",
+            "answer": 1,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933503094444033",
+            "questionId": "794933500850491393",
+            "content": "可以同时为项目P1、P3进行投资，因为投资后公司资金周转状态是安全的",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933503111221249",
+            "questionId": "794933500850491393",
+            "content": "不能先为项目P3进行投资，因为投资后公司资金周转状态是不安全的",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933565325332481",
+        "title": "<p>某IT企业计划对一批新招聘的技术人员进行岗前脱产培训，培训内容包括编程和测试两个专业，每个专业要求在基础知识、应用技术和实际训练三个方面都得到提高。根据培训大纲，每周的编程培训可同时获得基础知识3学分、应用技术7学分以及实际训练10学分；每周的测试培训可同时获得基础知识5学分、应用技术2学分以及实际训练7学分。企业要求这次岗前培训至少能完成基础知识70学分，应用技术86学分，实际训练185学分。以上说明如下表所示。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/0e819c1cb1798195e4c9c8544e039bd4.jpg-ruankao\" title=\"0e819c1cb1798195e4c9c8544e039bd4.jpg\" alt=\"1.jpg\"/>那么这样的岗前培训至少需要 （ ） 周时间才能满足企业的要求。</p>",
+        "analyze": "<p>设编程需要x周，测试需要y周，则下列方程式成立。</p><p>基础知识：3x+ 5y= 70</p><p>应用技术：7x+ 2y=86</p><p>实际训练：10x+ 7y=185</p><p>解上述方程式，得出的x=15、y=5之和20就是需要的值。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933567229546497"],
+        "itemList": [
+          {
+            "id": "794933567191797761",
+            "questionId": "794933565325332481",
+            "content": "15",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933567212769281",
+            "questionId": "794933565325332481",
+            "content": "18",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933567229546497",
+            "questionId": "794933565325332481",
+            "content": "20",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933567246323713",
+            "questionId": "794933565325332481",
+            "content": "23",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933497562157057",
+        "title": "<p><br/></p><p class=\"MsoNormal\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">某风险投资公司拥有的总资金数为</span>25，分期为项目P1、P2、P3、P4投资，各项目投资情况如下表所示。公司的可用资金数为</span><span style=\"text-decoration:underline;\"><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span>50）</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">。</span></span></p><p class=\"MsoNormal\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/0d02b7d1685c470f854d807a6d125225.png-ruankao\"/></span></span></p>",
+        "analyze": "<p><br/></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 21pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">企业的总资金数是</span>25,企业资金管理处为项目P1、P2、P3、P4已投资的资金总数=5+5+6+7=23,故可用资金数为</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">25-23=</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">2。</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 21pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\"><span style=\"font-family: 宋体; font-size: 10.5pt; background: #7F7F7F;\"><span style=\"font-family:宋体\">参考答案</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">：</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">50）C</span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933499806109697"],
+        "itemList": [
+          {
+            "id": "794933499768360961",
+            "questionId": "794933497562157057",
+            "content": "0",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933499785138177",
+            "questionId": "794933497562157057",
+            "content": "1",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933499806109697",
+            "questionId": "794933497562157057",
+            "content": "2",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933499822886913",
+            "questionId": "794933497562157057",
+            "content": "3",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933618005790721",
+        "title": "<p>各种线性规划模型都可以将其标准化。线性规划模型标准形式的特点不包括 （67） 。</p>",
+        "analyze": "<p>线性规划模型标准形式有如下四个特点：</p><p>1）目标函数是求最大值或最小值</p><p>2）约束条件都是线性等式</p><p>3）决策变量均为非负</p><p>4）约束条件等式的右端常数是非负数</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933619939364865"],
+        "itemList": [
+          {
+            "id": "794933619910004737",
+            "questionId": "794933618005790721",
+            "content": "目标函数达到最大化（或最小化）",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933619926781953",
+            "questionId": "794933618005790721",
+            "content": "约束条件都是线性等式",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933619939364865",
+            "questionId": "794933618005790721",
+            "content": "约束条件等式的右端常数是0",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933619956142081",
+            "questionId": "794933618005790721",
+            "content": "所有的决策变量均为非负",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933480822689793",
+        "title": "<p><br/></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">某石油管理公司拥有下图所示的输油管道网。其中有</span>6个站点，标记为①～⑥。站点①是唯一的供油站。各站点之间的箭线表示输油管道和流向。箭线边上标注的数字表示该管道的最大流量（单位：百吨／小时）。据此可算出，从站点①到达站点⑥的最大流量为</span><span style=\"text-decoration:underline;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span>54）</span></span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">百吨</span>/小时</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\">。</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/774507db52a9da9aa0daef3ce7d164e5.png-ruankao\"/></span></p>",
+        "analyze": "<p><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\">试题解析：</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\">本题考查应用数学基础知识。</span><br/></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"text-indent: 21pt; line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">从站点</span>①到⑥有多条线路。显然，每条线路上的最大流量等于该线路上各段管道最大流量的最小值。站点①到⑥的最大总流量等于所有线路最大流量之和。</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">我们可以先从流量较大的线路开始计算。例如，线路</span>①②④⑥的最大流量为min(10，5，11)=5。线路①③⑤⑥的最大流量为min(6，8，7)=6。除去这两条线路的流量后，剩余流量的图示如下：</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/5dfd054bcbeed37583520d95a0115d1d.png-ruankao\"/></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">根据此图，线路</span>①②③④⑥的最大流量为min(5，4，5，6)=4。除去该线路上的流量后得:</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/9fad8b896f1b363cad3a8c8ce0de4852.png-ruankao\"/></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">根据此图，线路</span>①②⑤⑥的最大流量为min(1，3，1)=1。除去该线路上的流量后，从①到⑥已不连通，也就不再有剩余流量。</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">汇总后，最大总流量可以达到</span>5+6+4+1=16(百吨/小时</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\">)</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">。上述实现最大流量的方法是：</span></span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/55468330799ada72517508dff05b9bfb.png-ruankao\"/><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><br/></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">该图中，各管道的实际流量都不超过其最大流量。除起点和终点外，所有站点的进油量等于其出油量。</span></span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">虽然解答此题可以有多种选择线路的方案，但计算得到的最大总流量值都是</span>-致的。</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">由于上述解题过程中，管道</span>⑤一④尚未用到，因此，该管道的关闭并不会影响最大总流量值。其他路段管道的关闭是否会影响总流量值呢？</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">为了保持总流量值为</span>16，从①出发的两段管道必须满负苟运输。管道①一②的流量10被分散到②一③、②一④、②一⑤三条管道，关闭其中任何一条管道都将达不到流量为10。同时，管道②一③的流量至少为2。</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">同样，为保持最大总流量，管道</span>①一③的流量为6，管道③一⑤显然不能关闭。假设管道③一④关闭，则管道④一⑥的流量至多为8，到达站点⑥的流量至多为15。所以为保持最大总流量，管道③一④不能关闭。</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\"><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">为保持到达站点</span>⑥的总流量为16，显然管道④一⑥和⑤一⑥任何一个都不能关闭。从而，只有管道⑤一④的关闭对最大总流量没有影响。</span></p><p class=\"MsoNormal\"><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">参考答案：（</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">54）</span><span style=\"font-family: 宋体; font-size: 10.5pt;\">C</span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933483096002561"],
+        "itemList": [
+          {
+            "id": "794933483062448129",
+            "questionId": "794933480822689793",
+            "content": "14",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933483079225345",
+            "questionId": "794933480822689793",
+            "content": "15",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933483096002561",
+            "questionId": "794933480822689793",
+            "content": "16",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933483116974081",
+            "questionId": "794933480822689793",
+            "content": "18",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933597172682753",
+        "title": "某家具厂有方木材90 m3，木工板600 m3，生产书桌和书柜所用材料数量及利润如下表所示。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/d54ea4d2262679f881db4d311d224e3b.jpg-ruankao\" title=\"d54ea4d2262679f881db4d311d224e3b.jpg\" alt=\"1.jpg\"/>在生产计划最优化的情况下，最大利润为 （64） 元。",
+        "analyze": "<p>设书桌x张，书柜y张，则</p><p>0.1x+0.2y90，即x+2y900</p><p>2x+y600</p><p>求MAX（80x+120y）</p><p>显然，x=100，y=400时可以求得最大值。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933599106256897"],
+        "itemList": [
+          {
+            "id": "794933599039148033",
+            "questionId": "794933597172682753",
+            "content": "54000",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933599072702465",
+            "questionId": "794933597172682753",
+            "content": "55000",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933599106256897",
+            "questionId": "794933597172682753",
+            "content": "56000",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933599135617025",
+            "questionId": "794933597172682753",
+            "content": "58000",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933580714233857",
+        "title": "张先生向商店订购某一商品，每件定价100元，共订购60件，张先生对商店经理说：“如果你肯减价，每减价1元，我就多订购3件”，商店经理算了一下，如果减价4%，由于张先生多订购，仍可获得原来一样多的总利润。请问这件商品的成本是 （） 元。",
+        "analyze": "<p>设商品的成本为x，张先生总共订购60件，则不降价前的总利润是60(100-x)，降价4%，也就是降到96元后的总利润是72(96-x)，两种情况下的总利润相等，则可以得到以下算式：</p><p>60(100-x)=72(96-x)</p><p>x=76</p><p>故：商品的成本价为76元。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "A",
+        "chooseItem": ["794933582593282049"],
+        "itemList": [
+          {
+            "id": "794933582593282049",
+            "questionId": "794933580714233857",
+            "content": "76",
+            "answer": 1,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933582631030785",
+            "questionId": "794933580714233857",
+            "content": "80",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933582660390913",
+            "questionId": "794933580714233857",
+            "content": "75",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933582685556737",
+            "questionId": "794933580714233857",
+            "content": "85",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933490922573825",
+        "title": "<p><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">已知</span>17个自然数（可有重复）的最小值是30，平均值是34，中位数是35，所有各数到38的距离之和比到35的距离之和多5，由此可以推断，这17个数中只有1个</span><span style=\"text-decoration:underline;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span>57）</span></span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">。</span></span><br/></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p>",
+        "analyze": "<p><span style=\"font-family:宋体\">由于这</span><span style=\"font-family: 宋体; font-size: 10.5pt;\">17个数的中位数是35，所以肯定其中有1个数就是35，左边8个数小于或等于35，右边8个数大于或等于35。以所有各数到35的距离之和为基础，考察各数到38的距离之和的变化。左边和中间共9个数，每个数到38的距离都比到35的距离增加3，共增加27。因此，右边8个数，从离35转到离38的距离之和，应减少27-5=22。</span><br/></p><p class=\"MsoNormal\" style=\"text-indent: 21pt; line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">设右边</span>8个数中，有x个35，y个36，z个37，w个38或38以上。而35、36、37、38以上，对35和38的距离变化分别是+3、+1、-1、-3。所以应该有：</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\">3x+y-z-3w=-22，x+y+z+w=8，x、y、z、w都是0〜8之间的整数。</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">两式相加得</span>2w-x+z=15，再减前式得w-2x-y=7。</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\">w只能为7(若w=8，则x=y=zK)，上式不成立).，从而x=y=0，z=l。即17个数中，只有1个37(至此已完成本题解答)，没有36，中位数35的右边没有重复的35。</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"text-indent: 21pt; line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">中位数</span>35以及右边的8个数(1个37，7个至少38)到34的距离之和至少为32。由于这17个数的平均值为34，因此，小于34的各数与34的距离之和也应该不少于32(如果左边8数中含有35，则该和数还应该更多)。由于17个数的最小值为30，它与34的距离为4，因此中位数左边8个数必须都是30。也就是说，17个数中，35也只有1个，并没有34，而30则有8个。</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">由于中位数左边</span>8个数30与34的距离之和恰好等于32，因此35以及右边8个数与34的距离之和也必须正好等于32。因此35右边除了1个37外，其他只能是7个38。</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"text-indent: 21pt; line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">这样就推断出，这</span>17个数只能是：8个30，1个35，1个37，7个38。</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">参考答案：（</span></span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\">57）</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\">D</span><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"></span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "D",
+        "chooseItem": ["794933493212663809"],
+        "itemList": [
+          {
+            "id": "794933493166526465",
+            "questionId": "794933490922573825",
+            "content": "30",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933493183303681",
+            "questionId": "794933490922573825",
+            "content": "34",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933493195886593",
+            "questionId": "794933490922573825",
+            "content": "36",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933493212663809",
+            "questionId": "794933490922573825",
+            "content": "37",
+            "answer": 1,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933526171504641",
+        "title": "<p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/fea1e41b9adc05d961e577b4b26e9d30.png-ruankao\"/></p>",
+        "analyze": "<p><span style=\"font-family: 宋体; background-color: #FFFFFF; font-size: 10.5pt; text-indent: 20.7pt;\">穷举法</span><br/></p><p class=\"MsoNormal\" style=\"text-indent:20.7000pt;\"><span style=\"font-family: Calibri; font-size: 10.5pt; background: #FFFFFF;\"><span style=\"font-family:宋体\">从</span>A<span style=\"font-family:宋体\">到</span><span style=\"font-family:Calibri\">B </span><span style=\"font-family:宋体\">挨个数，找最小。</span></span><span style=\"font-family: Calibri; font-size: 10.5pt; background: #FFFFFF;\"></span></p><p class=\"MsoNormal\" style=\"text-indent:20.7000pt;\"><span style=\"font-family: 黑体; font-size: 10.5pt; background: #7F7F7F;\"><span style=\"font-family:黑体\">参考答案</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">：</span>B</span><span style=\"font-family: 宋体; font-size: 10.5pt;\"></span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "B",
+        "chooseItem": ["794933528042164225"],
+        "itemList": [
+          {
+            "id": "794933528021192705",
+            "questionId": "794933526171504641",
+            "content": "4",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933528042164225",
+            "questionId": "794933526171504641",
+            "content": "5",
+            "answer": 1,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933528063135745",
+            "questionId": "794933526171504641",
+            "content": "7",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933528079912961",
+            "questionId": "794933526171504641",
+            "content": "6",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933629569486849",
+        "title": "<p>某家具厂有方木材90m³，木工板600m³，生产书桌和书柜所用材料数量及利润如下表所示。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/ce009fbf91a140de5836ab93873d8cd3.png-ruankao\" title=\"ce009fbf91a140de5836ab93873d8cd3.png\" alt=\"image.png\" width=\"474\" height=\"115\"/><br/></p><p></p><p>在生产计划最优化的情况下，最大利润为 （） 元。</p><br/>",
+        "analyze": "<p>设书桌x张，书柜y张，则</p><p>0.1X+0.2y≤90，即x+2y≤900</p><p>2x+y≤600</p><p>求MAX（80x+120y）</p><p>显然，x=100，y=400时可以求得最大值。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933631473700865"],
+        "itemList": [
+          {
+            "id": "794933631435952129",
+            "questionId": "794933629569486849",
+            "content": "54000",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933631456923649",
+            "questionId": "794933629569486849",
+            "content": "55000",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933631473700865",
+            "questionId": "794933629569486849",
+            "content": "56000",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933631490478081",
+            "questionId": "794933629569486849",
+            "content": "58000",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933484144578561",
+        "title": "<p><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">某石油管理公司拥有下图所示的输油管道网。其中有</span>6个站点，标记为①～⑥。站点①是唯一的供油站。各站点之间的箭线表示输油管道和流向。箭线边上标注的数字表示该管道的最大流量（单位：百吨／小时）。据此可算出，</span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\">当管道</span><span style=\"text-decoration: underline;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">（</span>55）</span></span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">关闭维修时管道网仍可按该最大流量值向站点</span>⑥供油。<br/><img style=\"max-width:100%;height:auto\"  title=\"6cf866b7428982452824621a1863075f.png\" alt=\"3131.png\" src=\"https://image-t.chaiding.com/ruankao/6cf866b7428982452824621a1863075f.png-ruankao\"/></span><br/></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"></span></p>",
+        "analyze": "<p><br/></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">试题解析：</span></span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">本题考查应用数学基础知识。</span></span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%; text-indent: 21pt;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">从站点</span>①到⑥有多条线路。显然，每条线路上的最大流量等于该线路上各段管道最大流量的最小值。站点①到⑥的最大总流量等于所有线路最大流量之和。</span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">我们可以先从流量较大的线路开始计算。例如，线路</span>①②④⑥的最大流量为min(10，5，11)=5。线路①③⑤⑥的最大流量为min(6，8，7)=6。除去这两条线路的流量后，剩余流量的图示如下：</span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/c9bb1dcc1e8987d959b2b55db7d25db1.png-ruankao\"/></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">根据此图，线路</span>①②③④⑥的最大流量为mm(5，4，5，6)=4。除去该线路上的流量后得:</span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"text-align: center; line-height: 150%;\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/34a19900e3ddc04011b7e83aacac9523.png-ruankao\"/></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">根据此图，线路</span>①②⑤⑥的最大流量为min(1，3，1)=1。除去该线路上的流量后，从①到⑥已不连通，也就不再有剩余流量。</span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">汇总后，最大总流量可以达到</span>5+6+4+1=16(百吨/小时</span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\">)</span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">。上述实现最大流量的方法是：</span></span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"text-align: center; line-height: 150%;\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/113d06fa50a73849ec634ac80daf3c5c.png-ruankao\"/></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">该图中，各管道的实际流量都不超过其最大流量。除起点和终点外，所有站点的进油量等于其出油量。</span></span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">虽然解答此题可以有多种选择线路的方案，但计算得到的最大总流量值都是</span>-致的。</span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">由于上述解题过程中，管道</span>⑤一④尚未用到，因此，该管道的关闭并不会影响最大总流量值。其他路段管道的关闭是否会影响总流量值呢？</span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">为了保持总流量值为</span>16，从①出发的两段管道必须满负苟运输。管道①一②的流量10被分散到②一③、②一④、②一⑤三条管道，关闭其中任何一条管道都将达不到流量为10。同时，管道②一③的流量至少为2。</span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">同样，为保持最大总流量，管道</span>①一③的流量为6，管道③一⑤显然不能关闭。假设管道③一④关闭，则管道④一⑥的流量至多为8，到达站点⑥的流量至多为15。所以为保持最大总流量，管道③一④不能关闭。</span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">为保持到达站点</span>⑥的总流量为16，显然管道④一⑥和⑤一⑥任何一个都不能关闭。从而，只有管道⑤一④的关闭对最大总流量没有影响。</span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\" style=\"line-height: 150%;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family: 宋体;\">参考答案：</span></span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\">&nbsp;&nbsp;<span style=\"font-family: 宋体;\">（</span>55）</span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\">&nbsp;D</span><span style=\"line-height: 150%; font-family: 宋体; font-size: 10.5pt;\"></span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "D",
+        "chooseItem": ["794933486489194497"],
+        "itemList": [
+          {
+            "id": "794933486401114113",
+            "questionId": "794933484144578561",
+            "content": "②→③",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933486430474241",
+            "questionId": "794933484144578561",
+            "content": "②→⑤",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933486459834369",
+            "questionId": "794933484144578561",
+            "content": "③→④",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933486489194497",
+            "questionId": "794933484144578561",
+            "content": "⑤→④",
+            "answer": 1,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933583599915009",
+        "title": "<p>载重量限24吨的某架货运飞机执行将一批金属原料运往某地的任务。待运输的各箱原料的重量、运输利润如下表所示。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/d8986139e2c48cccb3e1f514c0d8499b.jpg-ruankao\" title=\"d8986139e2c48cccb3e1f514c0d8499b.jpg\" alt=\"1.jpg\"/></p><p>经优化安排，该飞机本次运输可以获得的最大利润为（）千元。</p>",
+        "analyze": "在重量有限制的条件下，为取得最大的利润，显然应优先选择装载“利润重量比”大的货物。先列出每箱货物的利润/重量比如下表所示。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/23716742f4c1ea9bea120bbc6a350772.jpg-ruankao\" title=\"23716742f4c1ea9bea120bbc6a350772.jpg\" alt=\"1.jpg\"/><p>根据利润重量比优先原则，应先装第4箱、第6箱货物。重量已达到16吨，离最大载重量还差8吨，只能再装第1箱，或第3箱，或第5箱。为取得最大利润，再装第1箱更好。</p><p>所以最优方案是装运箱号为1、4、6的三箱，总利润为3+4+3=10千元。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "B",
+        "chooseItem": ["794933585470574593"],
+        "itemList": [
+          {
+            "id": "794933585453797377",
+            "questionId": "794933583599915009",
+            "content": "11",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933585470574593",
+            "questionId": "794933583599915009",
+            "content": "10",
+            "answer": 1,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933585491546113",
+            "questionId": "794933583599915009",
+            "content": "9",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933585512517633",
+            "questionId": "794933583599915009",
+            "content": "8",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933562515148801",
+        "title": "<p>某厂需要购买生产设备生产某种产品，可以选择购买四种生产能力不同的设备，市场对该产品的需求状况有三种（需求量较大、需求量中等、需求量较小）。厂方估计四种设备在各种需求状况下的收益由下表给出，根据收益期望值最大的原则，应该购买 （ ） 。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/49a11026db2dc1b0f668b35c65efed38.jpg-ruankao\" title=\"49a11026db2dc1b0f668b35c65efed38.jpg\" alt=\"1.jpg\"/></p>",
+        "analyze": "<p>设备1收益期望值为：50*0.3+20*0.4+（-20）*0.3=17</p><p>设备2收益期望值为：30*0.3+25*0.4+（-10）*0.3=16</p><p>设备3收益期望值为：25*0.3+30*0.4+（-5）*0.3=18</p><p>设备4收益期望值为：10*0.3+10*0.4+10*0.3=10</p><p>因此，根据收益期望值最大的原则，应该购买设备3。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933564398391297"],
+        "itemList": [
+          {
+            "id": "794933564369031169",
+            "questionId": "794933562515148801",
+            "content": "设备1",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933564381614081",
+            "questionId": "794933562515148801",
+            "content": "设备2",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933564398391297",
+            "questionId": "794933562515148801",
+            "content": "设备3",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933564415168513",
+            "questionId": "794933562515148801",
+            "content": "设备4",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933545435942913",
+        "title": "<p>用一辆载重量为 10 吨的卡车装运某仓库中的货物（不用考虑装车时货物的大小），这些货物单件的重量和运输利润如下表。适当选择装运一些货物各若干件，就能获得最大总利润（ ）元。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/1c5566ce2a1ad20faa7aea0fe89d7889.jpg-ruankao\" title=\"1c5566ce2a1ad20faa7aea0fe89d7889.jpg\" alt=\"1.jpg\"/></p>",
+        "analyze": "<p>如果装的货均是单位利润最高的那些货物，并且装满10吨，则能获得最大总利润，如下表所示。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/ec3dab6ff2be7a997ac6cab42637b788.jpg-ruankao\" title=\"ec3dab6ff2be7a997ac6cab42637b788.jpg\" alt=\"1.jpg\"/></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "D",
+        "chooseItem": ["794933547356934145"],
+        "itemList": [
+          {
+            "id": "794933547302408193",
+            "questionId": "794933545435942913",
+            "content": "530",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933547319185409",
+            "questionId": "794933545435942913",
+            "content": "534",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933547335962625",
+            "questionId": "794933545435942913",
+            "content": "536",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933547356934145",
+            "questionId": "794933545435942913",
+            "content": "538",
+            "answer": 1,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933528994271233",
+        "title": "<p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/c8cc5e7b08a085d2caf55ac7582a7a94.png-ruankao\"/></p>",
+        "analyze": "<p><span style=\"font-family:宋体\">设甲生产</span><span style=\"font-family: 宋体; font-size: 10.5pt; text-indent: 0pt;\">X</span><span style=\"font-family:宋体\">套，乙生产</span><span style=\"font-family:Calibri\">Y</span><span style=\"font-family:宋体\">套，则有：</span><span style=\"font-family:Calibri\">2X+3Y</span><span style=\"font-family:宋体\">≤</span><span style=\"font-family:Calibri\">14</span><span style=\"font-family:宋体\">；</span><br/></p><p class=\"MsoNormal\" style=\"margin-left:20.7000pt;text-indent:0.0000pt;mso-char-indent-count:0.0000;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X<span style=\"font-family:宋体\">≤</span><span style=\"font-family:Calibri\">2</span><span style=\"font-family:宋体\">；</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left:20.7000pt;text-indent:0.0000pt;mso-char-indent-count:0.0000;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Y<span style=\"font-family:宋体\">≤</span><span style=\"font-family:Calibri\">4</span><span style=\"font-family:宋体\">；</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left:20.7000pt;text-indent:0.0000pt;mso-char-indent-count:0.0000;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">同时要满足利润最大，只有</span>X<span style=\"font-family:宋体\">取</span><span style=\"font-family:Calibri\">1</span><span style=\"font-family:宋体\">，</span><span style=\"font-family:Calibri\">Y</span><span style=\"font-family:宋体\">取</span><span style=\"font-family:Calibri\">4</span><span style=\"font-family:宋体\">时利润最大是</span><span style=\"font-family:Calibri\">14</span><span style=\"font-family:宋体\">万元。</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:Calibri;mso-hansi-font-family:Calibri;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left:20.7000pt;text-indent:0.0000pt;mso-char-indent-count:0.0000;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:黑体;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;background:#7F7F7F;mso-shading:#7F7F7F;\"><span style=\"font-family:黑体\">参考答案</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:Calibri;mso-fareast-font-family:宋体;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">：</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">&nbsp;B</span><span style=\"font-family: 宋体; font-size: 10.5pt;\"></span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "B",
+        "chooseItem": ["794933530885902337"],
+        "itemList": [
+          {
+            "id": "794933530864930817",
+            "questionId": "794933528994271233",
+            "content": "产甲2套，乙3套",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933530885902337",
+            "questionId": "794933528994271233",
+            "content": "生产甲1套，乙4套",
+            "answer": 1,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933530902679553",
+            "questionId": "794933528994271233",
+            "content": "生产甲3套，乙4套",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933530923651073",
+            "questionId": "794933528994271233",
+            "content": "生产甲4套，乙2套",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933577866301441",
+        "title": "某工程埋设线缆，将中央控制室W与A～F共6个控制点相连通，各控制点的位置及距离(单位：千米)如下图所示。可使所埋设线缆总长最短的方案个数和最短距离分别是（）。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/75664cecfc84e65442a657320979c6c7.jpg-ruankao\" title=\"75664cecfc84e65442a657320979c6c7.jpg\" alt=\"1.jpg\"/>",
+        "analyze": "<p>要使如图所示埋设的电缆总长最短，可以有以下两个方案。</p><p>方案1：(WA、WB、WC、WED、EF)，本方案所埋设线缆总长度为18+17+16+16+16+18=101千米。</p><p>方案2：(WA、WCB、WED、EF)，本方案所埋设线缆总长度为18+16+17+16+16+18=101千米。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "B",
+        "chooseItem": ["794933579757932545"],
+        "itemList": [
+          {
+            "id": "794933579741155329",
+            "questionId": "794933577866301441",
+            "content": "1个，102千米",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933579757932545",
+            "questionId": "794933577866301441",
+            "content": "2个，101千米",
+            "answer": 1,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933579774709761",
+            "questionId": "794933577866301441",
+            "content": "3个，102千米",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933579791486977",
+            "questionId": "794933577866301441",
+            "content": "3个，100千米",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933612259594241",
+        "title": "<p>某乡8个小村（编号为1~8）之间的距离如表1（单位：km）。1号村离水库最近，为 4km，从水库开始铺设水管将各村连接起来，最少需要铺设 （65） 长的水管（为便于管理和维修，水管分叉必须设在各村处）。<br/></p><p>表1 习题用表</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/e535fa70c07b49b080b53058f98b6521.jpg-ruankao\" title=\"e535fa70c07b49b080b53058f98b6521.jpg\" alt=\"111.jpg\"/></p><br/>",
+        "analyze": "<p>此题采用最小生成树法。</p><p>把各村之间的水管从最小的距离开始连接。</p><p>①u30000.5km，把7与8连接起来；</p><p>②u30000.8km，把1与4、6与7连接起来；</p><p>③u30001.0km，把2与3、2与5、3与8、4与8连接起来。而6与8之间如果连接，就会形成闭环，所以不连接6与8。</p><p>如下图所示：</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/328dd808ff795bd0c20cb5ad616dd912.jpg-ruankao\" title=\"328dd808ff795bd0c20cb5ad616dd912.jpg\" alt=\"111.jpg\"/></p><p>至此，全部小村均已连接，并且没有形成闭环，连接完成。水管总长度为：</p><p>4+0.8+1.0+0.8+0.5+1.0+1.0+1.0=10.1</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933614184779777"],
+        "itemList": [
+          {
+            "id": "794933614138642433",
+            "questionId": "794933612259594241",
+            "content": "6.1km",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933614159613953",
+            "questionId": "794933612259594241",
+            "content": "11.3km",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933614184779777",
+            "questionId": "794933612259594241",
+            "content": "10.1km",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933614205751297",
+            "questionId": "794933612259594241",
+            "content": "16.8km",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933548271292417",
+        "title": "<p>某企业准备将4个工人甲、乙、丙、丁分配在A、B、C、D共4个岗位。每个工人由于技术水平不同，在不同岗位上每天完成任务所需的工时见下表。适当安排岗位，可使4个工人以最短的总工时（ ）全部完成每天的任务。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/c6ff273aca9889c4f3fd52305f6997b3.jpg-ruankao\" title=\"c6ff273aca9889c4f3fd52305f6997b3.jpg\" alt=\"1.jpg\"/></p><br/>",
+        "analyze": "经分析表中处于左下到右上对角线的位置，4值相加最少，即4+4+3+3=14",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "B",
+        "chooseItem": ["794933550158729217"],
+        "itemList": [
+          {
+            "id": "794933550141952001",
+            "questionId": "794933548271292417",
+            "content": "13",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933550158729217",
+            "questionId": "794933548271292417",
+            "content": "14",
+            "answer": 1,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933550171312129",
+            "questionId": "794933548271292417",
+            "content": "15",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933550183895041",
+            "questionId": "794933548271292417",
+            "content": "16",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933608736378881",
+        "title": "<p>某家具厂有方木材90&nbsp;m3，木工板600&nbsp;m3，生产书桌和书柜所用材料数量及利润如下表所示。</p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/e6cc8d2dbd59bb6420e6c70ff4b9d7d6.png-ruankao\" title=\"e6cc8d2dbd59bb6420e6c70ff4b9d7d6.png\" alt=\"image.png\"/><br/><p>在生产计划最优化的情况下，最大利润为 （） 元。</p>",
+        "analyze": "<p>设书桌x张，书柜y张，则</p><p>0.1x+0.2y90，即x+2y900</p><p>2x+y600</p><p>求MAX（80x+120y）</p><p>显然，x=100，y=400时可以求得最大值。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933610984525825"],
+        "itemList": [
+          {
+            "id": "794933610942582785",
+            "questionId": "794933608736378881",
+            "content": "54 000",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933610963554305",
+            "questionId": "794933608736378881",
+            "content": "55 000",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933610984525825",
+            "questionId": "794933608736378881",
+            "content": "56 000",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933611005497345",
+            "questionId": "794933608736378881",
+            "content": "58 000",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933523340349441",
+        "title": "<p><span style=\"font-family:宋体\">同时抛掷</span><span style=\"font-family: 宋体; font-size: 10.5pt;\"> 3 </span><span style=\"font-family:宋体\">枚均匀的硬币，恰好有两枚正面向上的概率为（ ）。</span></p><p class=\"MsoNormal\"><br/></p>",
+        "analyze": "<p><br/></p><p class=\"MsoNormal\"><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">每枚硬币都有正反两面，三枚硬币共有</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">8<span style=\"font-family:宋体\">种情况，</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">两枚正面向上</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">的情况有：正正反、正反正、反正正</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">,3<span style=\"font-family:宋体\">种。</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"></span></p><p class=\"MsoNormal\"><span style=\"font-family: 宋体; font-size: 10.5pt;\">&nbsp;</span><span style=\"font-family: 黑体; font-size: 10.5pt; background: #7F7F7F;\"><span style=\"font-family:黑体\">参考答案</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">：</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">B&nbsp;</span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "B",
+        "chooseItem": ["794933525211009025"],
+        "itemList": [
+          {
+            "id": "794933525194231809",
+            "questionId": "794933523340349441",
+            "content": "1/4",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933525211009025",
+            "questionId": "794933523340349441",
+            "content": "3/8",
+            "answer": 1,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933525227786241",
+            "questionId": "794933523340349441",
+            "content": "1/2",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933525244563457",
+            "questionId": "794933523340349441",
+            "content": "1/3",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933575047729153",
+        "title": "某系统集成项目为满足某种软件产品的市场需求，拟提出自主开发、部分研发任务外包和外购3个方案。假设各方案中销路好的概率为0.3，销路一般的概率为0.5，销路差的概率为0.2。不同销路的损益值如下表所示。假设该项目经营期为10年，那么该项目所作的决策最可能是（）。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/d557f0ac85069269c5b94352e95602dc.jpg-ruankao\" title=\"d557f0ac85069269c5b94352e95602dc.jpg\" alt=\"1.jpg\"/>",
+        "analyze": "<p>自主开发方案的期望值计算方法为：</p><p>(80×0.3+60×0.5+50×0.2)×10-300=340(万元)。</p><p>部分研发任务外包方案的期望值计算方法为：</p><p>(30×0.3+20×0.5+15×0.2)×10-80=140(万元)。</p><p>外购方案的期望值计算方法为(50×0.3+40×0.5+25×0.2)×10-160=240(万元)。</p><p>由于340＞240＞140，因此从货币期望值最大决策角度考虑，建议该项目选择自主开发方案。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "A",
+        "chooseItem": ["794933576901611521"],
+        "itemList": [
+          {
+            "id": "794933576901611521",
+            "questionId": "794933575047729153",
+            "content": "选择自主开发方案",
+            "answer": 1,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933576922583041",
+            "questionId": "794933575047729153",
+            "content": "选择部分研发任务外包方案",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933576939360257",
+            "questionId": "794933575047729153",
+            "content": "选择外购方案",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933576960331777",
+            "questionId": "794933575047729153",
+            "content": "条件不足，无法得出结论",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933510690328577",
+        "title": "<p><br/></p><p class=\"MsoNormal\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">某厂准备生产甲、乙、丙三种产品，生产每件产品所需的</span>A、B两种原料数量，能获得的利润，以及工厂拥有的原料数量如下表：</span></p><p class=\"MsoNormal\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/963f3cde8ddedde0bb2ba0a4fda8d931.png-ruankao\"/></span></p><p class=\"MsoNormal\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span><span style=\"text-indent: 0pt; font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">根据该表，只要安排好生产计划，就能获得最大利润</span></span><span style=\"text-indent: 0pt;text-decoration:underline;\"><span style=\"font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span>54）</span></span><span style=\"text-indent: 0pt; font-family: 宋体; line-height: 150%; font-size: 10.5pt;\"><span style=\"font-family:宋体\">万元。</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><br/></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p>",
+        "analyze": "<p><br/></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">设该厂计划生产甲</span>x件，乙y件，丙z件，则有线性规划模型：</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">Max S=3x+4y+z</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">6x+5y+3z≤45</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">3x+5y+4z≤30</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">xyz</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;color:#FF0000;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">≥</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\">0</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">线性规划问题的最优解必然在可行解区的顶点处达到。</span> </span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">因此，在</span>x=5, y=3, z=0时能获得最大利润27万元。</span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"><span style=\"font-family:宋体\">可以通过坐标图解答。</span></span><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"></span></p><p class=\"MsoNormal\" style=\"margin-left: 0pt; text-indent: 0pt; line-height: 150%;\"><span style=\"mso-spacerun:&#39;yes&#39;;font-family:宋体;line-height:150%;font-size:10.5000pt;mso-font-kerning:1.0000pt;\"> </span><span style=\"font-family: 宋体; font-size: 10.5pt; background: #7F7F7F;\"><span style=\"font-family:宋体\">参考答案</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">：</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\"><span style=\"font-family:宋体\">（</span></span><span style=\"font-family: 宋体; font-size: 10.5pt;\">54）C</span><span style=\"font-family: 宋体; font-size: 10.5pt;\"></span></p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "C",
+        "chooseItem": ["794933512703594497"],
+        "itemList": [
+          {
+            "id": "794933512661651457",
+            "questionId": "794933510690328577",
+            "content": "25",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933512682622977",
+            "questionId": "794933510690328577",
+            "content": "26",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933512703594497",
+            "questionId": "794933510690328577",
+            "content": "27",
+            "answer": 1,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933512720371713",
+            "questionId": "794933510690328577",
+            "content": "28",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933600045780993",
+        "title": "<p><strong>请作答第<span style=\"color: red\">1</span>空。</strong></p><p>某企业需要采用甲、乙、丙三种原材料生产Ⅰ、Ⅱ两种产品。生产两种产品所需原材料数量、单位产品可获得利润以及企业现有原材料数如表所示：</p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/a56c1f3791b16a86344169b1097154cb.png-ruankao\" title=\"a56c1f3791b16a86344169b1097154cb.png\" alt=\"image.png\"/><br/><p>则公司可以获得的最大利润是（52）万元。取得最大利润时，原材料（53）尚有剩余。</p>",
+        "analyze": "<p>设生产的产品 I为 x 吨，产品II 为 y 吨，则：&nbsp;</p><p>1x+1y≦4&nbsp;</p><p>4x+3y≦12&nbsp;</p><p>1x+3y≦6&nbsp;</p><p>解上述方程可知，x=2,y=4/3.因此，最大利润是：9*2+12*4/3=34&nbsp;原料“甲”还剩余。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "B",
+        "chooseItem": ["794933601937412097"],
+        "itemList": [
+          {
+            "id": "794933601916440577",
+            "questionId": "794933600045780993",
+            "content": "21",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933601937412097",
+            "questionId": "794933600045780993",
+            "content": "34",
+            "answer": 1,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933601954189313",
+            "questionId": "794933600045780993",
+            "content": "39",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933601966772225",
+            "questionId": "794933600045780993",
+            "content": "48",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933635261157377",
+        "title": "<p><strong>请作答第<span style=\"color: red\">1</span>空。</strong></p><p>某厂拥有三种资源 A．B．C生产甲、乙两种产品。生产每吨产品需要消耗的资源、可以获得的利润见下表。日前，该厂拥有资源 A．资源 B 和资源 C 分別为 12 吨，7 吨和 12 吨。根据上述说明，适当安排甲、乙两种产品的生产量，就能获得最大总利润 （67）百万元 。如果资源 A 不再受限，则该厂总利润为 （68）百万元 。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/4c9580d67cdeeb26aaf603120f5e25ac.jpg-ruankao\" title=\"4c9580d67cdeeb26aaf603120f5e25ac.jpg\" alt=\"1111.jpg\" width=\"553\" height=\"141\"/></p>",
+        "analyze": "<p>本题采用图解法。</p><p>设甲产品生产x吨，乙商品生产y吨，根据题意，得到约束条件如下：</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/c3e274a8b7affbeeda4158a4dd485c14.jpg-ruankao\" title=\"c3e274a8b7affbeeda4158a4dd485c14.jpg\" alt=\"1111.jpg\" width=\"172\" height=\"90\"/></p><p>根据约束条件，得到对应的坐标图具体如图1所示。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/50dbdfdc4356c48bb8a291f7267528d9.jpg-ruankao\" title=\"50dbdfdc4356c48bb8a291f7267528d9.jpg\" alt=\"1111.jpg\" width=\"418\" height=\"471\"/></p><p>符合条件的区域是左下角的深色区，深色区的顶点分别为（0,0）, （0,6）, （4,0）, （2.5,4.5）, （2,5）,将这5组数值代入表达式3x+2y。可得顶点（2.5,4.5）得到最大值N=16.5。</p><p>因此，最大利润为16.5百万元。</p><p>如果生产计划只受资源 B 和 C 的约束，顶点（7,0）才是3x+2y的最大值点，如下图。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/e0bce1c146759c1c250cb09fe3391a3a.jpg-ruankao\" title=\"e0bce1c146759c1c250cb09fe3391a3a.jpg\" alt=\"1111.jpg\"/></p><p>此时，该最大值N为21。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "A",
+        "chooseItem": ["794933637127622657"],
+        "itemList": [
+          {
+            "id": "794933637127622657",
+            "questionId": "794933635261157377",
+            "content": "16.5",
+            "answer": 1,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933637144399873",
+            "questionId": "794933635261157377",
+            "content": "17",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933637165371393",
+            "questionId": "794933635261157377",
+            "content": "19",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933637186342913",
+            "questionId": "794933635261157377",
+            "content": "20",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933602910490625",
+        "title": "<p><strong>请作答第<span style=\"color: red\">2</span>空。</strong></p><p>某企业需要采用甲、乙、丙三种原材料生产Ⅰ、Ⅱ两种产品。生产两种产品所需原材料数量、单位产品可获得利润以及企业现有原材料数如表所示：</p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/a56c1f3791b16a86344169b1097154cb.png-ruankao\" title=\"a56c1f3791b16a86344169b1097154cb.png\" alt=\"image.png\"/><br/><p>则公司可以获得的最大利润是（52）万元。取得最大利润时，原材料（53）尚有剩余。</p>",
+        "analyze": "<p>设生产的产品 I为 x 吨，产品II 为 y 吨，则：&nbsp;</p><p>1x+1y≦4&nbsp;</p><p>4x+3y≦12&nbsp;</p><p>1x+3y≦6&nbsp;</p><p>解上述方程可知，x=2,y=4/3.因此，最大利润是：9*2+12*4/3=34&nbsp;原料“甲”还剩余。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "A",
+        "chooseItem": ["794933604781150209"],
+        "itemList": [
+          {
+            "id": "794933604781150209",
+            "questionId": "794933602910490625",
+            "content": "甲",
+            "answer": 1,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933604802121729",
+            "questionId": "794933602910490625",
+            "content": "乙",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933604823093249",
+            "questionId": "794933602910490625",
+            "content": "丙",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933604844064769",
+            "questionId": "794933602910490625",
+            "content": "乙和丙",
+            "answer": 0,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      },
+      {
+        "id": "794933638096506881",
+        "title": "<p><strong>请作答第<span style=\"color: red\">2</span>空。</strong></p><p>某厂拥有三种资源 A．B．C生产甲、乙两种产品。生产每吨产品需要消耗的资源、可以获得的利润见下表。日前，该厂拥有资源 A．资源 B 和资源 C 分別为 12 吨，7 吨和 12 吨。根据上述说明，适当安排甲、乙两种产品的生产量，就能获得最大总利润 （67）百万元 。如果资源 A 不再受限，则该厂总利润为 （68）百万元 。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/4c9580d67cdeeb26aaf603120f5e25ac.jpg-ruankao\" title=\"4c9580d67cdeeb26aaf603120f5e25ac.jpg\" alt=\"1111.jpg\" width=\"553\" height=\"141\"/></p>",
+        "analyze": "<p>本题采用图解法。</p><p>设甲产品生产x吨，乙商品生产y吨，根据题意，得到约束条件如下：</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/c3e274a8b7affbeeda4158a4dd485c14.jpg-ruankao\" title=\"c3e274a8b7affbeeda4158a4dd485c14.jpg\" alt=\"1111.jpg\" width=\"172\" height=\"90\"/></p><p>根据约束条件，得到对应的坐标图具体如图1所示。<br/><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/50dbdfdc4356c48bb8a291f7267528d9.jpg-ruankao\" title=\"50dbdfdc4356c48bb8a291f7267528d9.jpg\" alt=\"1111.jpg\" width=\"418\" height=\"471\"/></p><p>符合条件的区域是左下角的深色区，深色区的顶点分别为（0,0）, （0,6）, （4,0）, （2.5,4.5）, （2,5）,将这5组数值代入表达式3x+2y。可得顶点（2.5,4.5）得到最大值N=16.5。</p><p>因此，最大利润为16.5百万元。</p><p>如果生产计划只受资源 B 和 C 的约束，顶点（7,0）才是3x+2y的最大值点，如下图。</p><p><img style=\"max-width:100%;height:auto\"  src=\"https://image-t.chaiding.com/ruankao/e0bce1c146759c1c250cb09fe3391a3a.jpg-ruankao\" title=\"e0bce1c146759c1c250cb09fe3391a3a.jpg\" alt=\"1111.jpg\"/></p><p>此时，该最大值N为21。</p>",
+        "multi": 0,
+        "questionType": 1,
+        "answer": "D",
+        "chooseItem": ["794933640000720897"],
+        "itemList": [
+          {
+            "id": "794933639946194945",
+            "questionId": "794933638096506881",
+            "content": "18",
+            "answer": 0,
+            "chooseValue": "A"
+          },
+          {
+            "id": "794933639967166465",
+            "questionId": "794933638096506881",
+            "content": "19",
+            "answer": 0,
+            "chooseValue": "B"
+          },
+          {
+            "id": "794933639983943681",
+            "questionId": "794933638096506881",
+            "content": "20",
+            "answer": 0,
+            "chooseValue": "C"
+          },
+          {
+            "id": "794933640000720897",
+            "questionId": "794933638096506881",
+            "content": "21",
+            "answer": 1,
+            "chooseValue": "D"
+          }
+        ],
+        "userAnswer": "",
+        "userChooseItem": null,
+        "answerCorrect": null,
+        "userCollect": 0,
+        "notebookNum": 0
+      }
+    ]
+  }
+}
