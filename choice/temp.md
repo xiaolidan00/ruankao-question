@@ -62,6 +62,7 @@
 本题考查信息安全基础知识。
  对称加密算法包括：DES（数据加密标准）、AES。
 
+
 常见对称加密算法：
 
 - DES:替换+移位，56 位密钥，64 位数据块
@@ -74,7 +75,6 @@
 
 - RSA:512 位（或 1024 位）
 - Elgamal、ECC（椭圆曲线算法）、背包算法、Rabin、D-H
-
 # 第5题
 
 下列关于计算机软件著作权的叙述，错误的是（）。
@@ -225,9 +225,9 @@ TOGAF框架是一个多视图的体系结构，它由企业的**业务架构、�
 ![img](https://image-t.chaiding.com/ruankao/67014a52bc87d69c0971b19569ce3c78.jpg-ruankao)
 ![img](https://image-t.chaiding.com/ruankao/dea814234faadced7feeb39f4e1052ef.jpg-ruankao)
 ![img](https://image-t.chaiding.com/ruankao/781836915c9216b59d3017b54acd1322.jpg-ruankao)
- 总共抽取流量：3+2+2+1+1=9。
+ 总共抽取流量：3+2+2+1+1=9。 
 
- 综上可得，最大输出能力为9万立方米/小时。
+ 综上可得，最大输出能力为9万立方米/小时。 
 
 # 第14题
 
@@ -240,9 +240,8 @@ TOGAF框架是一个多视图的体系结构，它由企业的**业务架构、�
 
 ------
 
-- 基于模型的系统工程是一种形式化的建模方法学（A）。它通过逻辑连贯一致的多视角系统模型，实现跨领域模型的可追踪、可验证和动态关联，驱动人工系统生存周期内各阶段和各层级内的系统工程过程和活动。相比于基于文档的传统系统工程工作模式，在复杂产品和系统研发时，基于模型的工程方法更具备可管理、可复现、可重用等特点，并且能够打破专业壁垒，提高沟通协同效率。
-- 非形式化的建模方法学（B）相对于形式化建模方法学而言，缺乏系统和规范性，难以进行自动化分析和处理，不适合前沿科技领域的工程项目。
-- 结构化建模方法学（C）和面向对象建模方法学（D）都是形式化建模方法学的一种，但它们主要针对不同类型的系统和应用领域，与基于模型的系统工程方法学略有不同。
+基于模型的系统工程是一种形式化的建模方法学（A）。它通过逻辑连贯一致的多视角系统模型，实现跨领域模型的可追踪、可验证和动态关联，驱动人工系统生存周期内各阶段和各层级内的系统工程过程和活动。相比于基于文档的传统系统工程工作模式，在复杂产品和系统研发时，基于模型的工程方法更具备可管理、可复现、可重用等特点，并且能够打破专业壁垒，提高沟通协同效率。 
+ 非形式化的建模方法学（B）相对于形式化建模方法学而言，缺乏系统和规范性，难以进行自动化分析和处理，不适合前沿科技领域的工程项目。结构化建模方法学（C）和面向对象建模方法学（D）都是形式化建模方法学的一种，但它们主要针对不同类型的系统和应用领域，与基于模型的系统工程方法学略有不同。 
  综上所述，应该选用A. 形式化的建模方法学作为基于模型的系统工程方法学的分类。
 
 # 第15题
@@ -256,11 +255,7 @@ TOGAF框架是一个多视图的体系结构，它由企业的**业务架构、�
 
 ------
 
-在数据库的安全机制中，通过提供存储过程（D）供第三方开发人员调用进行数据更新，从而保证数据库的关系模式不被第三方所获取。存储过程可以封装SQL语句和业务逻辑，并且只允许输入和输出参数与结果，隐藏了底层表的细节，可以保护数据库的安全性。
-
-- 索引（A）是提高数据库**查询效率**的一种手段；
-- 视图（B）是从一个或多个表中筛选出部分数据的**虚拟表**；
-- 触发器（C）是与数据库表事件相关的程序代码，主要用于保持**数据完整性**，不能保证数据库的关系模式不被第三方所获取。
+在数据库的安全机制中，通过提供存储过程（D）供第三方开发人员调用进行数据更新，从而保证数据库的关系模式不被第三方所获取。存储过程可以封装SQL语句和业务逻辑，并且只允许输入和输出参数与结果，隐藏了底层表的细节，可以保护数据库的安全性。索引（A）是提高数据库查询效率的一种手段；视图（B）是从一个或多个表中筛选出部分数据的虚拟表；触发器（C）是与数据库表事件相关的程序代码，主要用于保持数据完整性，不能保证数据库的关系模式不被第三方所获取。
 
 # 第16题
 
@@ -273,12 +268,8 @@ TOGAF框架是一个多视图的体系结构，它由企业的**业务架构、�
 
 ------
 
-针对SQL注入攻击，最好的防护措施是**部署WEB防火墙（B）或入侵检测系统（C）**，实时监控并及时拦截攻击行为。
-
-- 防火墙（A）可以起到一定的作用，但通常只能检查IP、端口、流量等**底层网络层面**的信息，无法深入检查HTTP协议中的参数，不能完全防范SQL注入攻击。
-- 堡垒机（D）则与此场景不相关，不适用于进行安全防护。
-  
-综上所述，应该选用B. WEB防火墙 进行安全防护，以最大程度地避免SQL注入攻击并保障系统的安全性。
+针对SQL注入攻击，最好的防护措施是部署WEB防火墙（B）或入侵检测系统（C），实时监控并及时拦截攻击行为。防火墙（A）可以起到一定的作用，但通常只能检查IP、端口、流量等底层网络层面的信息，无法深入检查HTTP协议中的参数，不能完全防范SQL注入攻击。堡垒机（D）则与此场景不相关，不适用于进行安全防护。 
+ 综上所述，应该选用B. WEB防火墙 进行安全防护，以最大程度地避免SQL注入攻击并保障系统的安全性。
 
 # 第17题
 
@@ -291,13 +282,8 @@ TOGAF框架是一个多视图的体系结构，它由企业的**业务架构、�
 
 ------
 
-备份虽然能够保证数据的可用性和完整性，但并不能确保机密性。相反，备份可能会增加数据泄露的风险。因为备份通常是未经加密的，并且可能存储在不安全的设备或媒介中，如果备份数据被恶意获取，可能导致数据泄露。
-
-而**加密、认证和授权**都是确保计算机系统机密性的有效方法。
-
-- 加密可以防止未经授权的人员访问和获取计算机系统中的敏感数据；
-- 认证可以验证用户的身份，确保只有合法的用户才能访问计算机系统；
-- 授权可以限制用户的权限，确保用户只能访问其所需的授权资源，从而减少数据泄露的风险。
+备份虽然能够保证数据的可用性和完整性，但并不能确保机密性。相反，备份可能会增加数据泄露的风险。因为备份通常是未经加密的，并且可能存储在不安全的设备或媒介中，如果备份数据被恶意获取，可能导致数据泄露。 
+ 而加密、认证和授权都是确保计算机系统机密性的有效方法。加密可以防止未经授权的人员访问和获取计算机系统中的敏感数据；认证可以验证用户的身份，确保只有合法的用户才能访问计算机系统；授权可以限制用户的权限，确保用户只能访问其所需的授权资源，从而减少数据泄露的风险。
 
 # 第18题
 
@@ -310,8 +296,8 @@ IP地址10.10.33.66/16的网络地址是（）。
 
 ------
 
-网络地址是将一个IP地址和子网掩码进行与运算得到的结果，其实现过程是将IP地址和子网掩码中相同位置上的二进制位进行&操作。
- 将IP地址10.10.33.66和子网掩码/16（即255.255.0.0）进行与运算，得到的结果是10.10.0.0。因此，答案为 A. 10.10.0.0。
+网络地址是将一个IP地址和子网掩码进行与运算得到的结果，其实现过程是将IP地址和子网掩码中相同位置上的二进制位进行&操作。 
+ 将IP地址10.10.33.66和子网掩码/16（即255.255.0.0）进行与运算，得到的结果是10.10.0.0。因此，答案为 A. 10.10.0.0。 
  综上所述，本题答案为 A. 10.10.0.0。
 
 # 第19题
@@ -325,7 +311,7 @@ IP报文首部不包含（）。
 
 ------
 
-IP报文首部不包含源目的MAC，因为源目的MAC地址是在**数据链路层**中使用的，与IP协议不直接相关。因此，正确答案是B。
+IP报文首部不包含源目的MAC，因为源目的MAC地址是在数据链路层中使用的，与IP协议不直接相关。因此，正确答案是B。
 
 # 第20题
 
@@ -338,7 +324,7 @@ IP报文首部不包含源目的MAC，因为源目的MAC地址是在**数据链�
 
 ------
 
-**企业信息化工程（Enterprise Information Engineer，简称EIE）**是指将**信息技术，自动化技术，现代管理技术与制造技术**相结合，改善制造企业的经营、管理、产品开发和生产等各个环节，提高生产效率、产品质量和企业创新能力，降低消耗，带动**产品设计方法和设计工具的创新、企业管理模式的创新、制造技术的创新以及企业间协作关系的创新**，从而实现**产品设计制造和企业管理的信息化、生产过程智能化、制造装备的数控化以及咨询服务的网络化**，全面提高我国企业的竞争力。
+企业信息化工程（Enterprise Information Engineer，简称EIE）是指将信息技术，自动化技术，现代管理技术与制造技术相结合，改善制造企业的经营、管理、产品开发和生产等各个环节，提高生产效率、产品质量和企业创新能力，降低消耗，带动产品设计方法和设计工具的创新、企业管理模式的创新、制造技术的创新以及企业间协作关系的创新，从而实现产品设计制造和企业管理的信息化、生产过程智能化、制造装备的数控化以及咨询服务的网络化，全面提高我国企业的竞争力。
 
 # 第21题
 
@@ -364,10 +350,9 @@ TCP/IP的四层模型中，每一层都提供了安全协议，下列属于网�
 
 ------
 
-- HTTPS应用层协议
-- SSH安全外壳协议，应用层协议
-- PSec网络层协议
-- Socks防火墙安全会话转换协议，会话层协议
+HTTPS应用层协议   SSH安全外壳协议，应用层协议     
+
+ IPSec网络层协议    Socks防火墙安全会话转换协议，会话层协议
 
 # 第23题
 
@@ -380,12 +365,12 @@ TCP/IP的四层模型中，每一层都提供了安全协议，下列属于网�
 
 ------
 
-FTP是一种常见的文件传输协议，但是它并不安全，因为它的传输内容和用户名、密码等信息都是明文传输的。相比之下，SFTP（Secure File Transfer Protocol）提供了一种安全的文件传输方式，采用 SSH 加密协议来保证传输的安全性，可以更好地保护数据的机密性。
+FTP是一种常见的文件传输协议，但是它并不安全，因为它的传输内容和用户名、密码等信息都是明文传输的。相比之下，SFTP（Secure File Transfer Protocol）提供了一种安全的文件传输方式，采用 SSH 加密协议来保证传输的安全性，可以更好地保护数据的机密性。 
  因此，选项B. SFTP是可以用于文件安全传输的协议，是本题的答案选项。
 
 # 第24题
 
-在数据库设计的**需求分析、概念结构设计、逻辑结构设计和物理结构**设计的四个阶段中，基本E-R图是（）。
+在数据库设计的需求分析、概念结构设计、逻辑结构设计和物理结构设计的四个阶段中，基本E-R图是（）。
 
 - A. 需求分析阶段形成的文档，并作为概念结构设计阶段的设计依据
 - B. 逻辑结构设计阶段形成的文档，并作为概念结构设计阶段的设计依据
@@ -395,11 +380,6 @@ FTP是一种常见的文件传输协议，但是它并不安全，因为它的�
 ------
 
 ![img](https://image-t.chaiding.com/ruankao/a3c2e7356f65f60dd61697b198038b52.jpg-ruankao)
-
-- 需求分析：分析数据存储要求，产出：数据流图，数据字典，需求说明书
-- 概念结构设计：设计 ER 图（实体联系），与物理实现无关
-- 逻辑结构设计：将 ER 图转换成关系模式（表），规范化
-- 物理设计：生成物理数据库
 
 # 第25题
 
@@ -412,7 +392,7 @@ FTP是一种常见的文件传输协议，但是它并不安全，因为它的�
 
 ------
 
-FTP是文件传输协议（File Transfer Protocol），主要用于计算机之间的文件传输和共享。而SMTP、POP和IMAP都是电子邮件收发协议，其中**SMTP用于发送邮件**，而**POP和IMAP用于接收邮件**。通常，当我们在邮箱中查看邮件时，就是通过POP或IMAP协议来接收邮件的。因此，选项 D 不属于电子邮件收发协议。
+FTP是文件传输协议（File Transfer Protocol），主要用于计算机之间的文件传输和共享。而SMTP、POP和IMAP都是电子邮件收发协议，其中SMTP用于发送邮件，而POP和IMAP用于接收邮件。通常，当我们在邮箱中查看邮件时，就是通过POP或IMAP协议来接收邮件的。因此，选项 D 不属于电子邮件收发协议。
 
 # 第26题
 
@@ -425,11 +405,11 @@ FTP是文件传输协议（File Transfer Protocol），主要用于计算机之�
 
 ------
 
-- 第一个阶段主要以**数据处理**为核心，围绕**职能部门需求**的信息系统规划，主要的方法包括 **BSP方法、关键成功因素法(Critical Success Factors，CSF)、战略集合转化法**
+第一个阶段主要以数据处理为核心，围绕职能部门需求的信息系统规划，主要的方法包括 BSP方法、关键成功因素法(Critical Success Factors，CSF)、战略集合转化法
 
-- 第二个阶段主要以**企业内部管理信息系统**为核心，围绕**企业整体需求**进行的信息系统规划，主要的方法包括**IE方法、战略系统规划法(Strategic System Plannning SSP)**
+ 第二个阶段主要以企业内部管理信息系统为核心，围绕企业整体需求进行的信息系统规划，主要的方法包括IE方法、战略系统规划法(Strategic System Plannning SSP)
 
-- 第三个阶段的方法在综合考虑企业**内外环境**的情况下，以**集成**为核心，围绕**企业战略需求**进行的信息系统规划，主要的方法包括**价值链分析法（ Value-Chain Analysis，VCA)、战略一致性模型(Strategy Alignment.Model，SAM)**等。
+ 第三个阶段的方法在综合考虑企业内外环境的情况下，以集成为核心，围绕企业战略需求进行的信息系统规划，主要的方法包括价值链分析法（ Value-Chain Analysis，VCA)、战略一致性模型(Strategy Alignment.Model，SAM)等。
 
 # 第27题
 
@@ -442,8 +422,7 @@ FTP是文件传输协议（File Transfer Protocol），主要用于计算机之�
 
 ------
 
-这种调度算法根据任务的紧急程度确定任务的优先级，任务紧急程度高被赋予的优先级就高，可被优先执行。这种算法称之为抢占式优先级调度（Preemptive Priority Scheduling, PPS）算法，因为在运行时会根据任务的优先级抢占正在执行的低优先级任务。
-而最早截止时间优先（Earliest Deadline First, EDF）算法、最低松弛度优先（Least Laxity First, LLF）算法和单调速率调度（Rate Monotonic Scheduling, RMS）算法则是根据任务的截止时间、松弛度和周期等特性来确定调度策略的。因此，选项D是正确答案。
+这种调度算法根据任务的紧急程度确定任务的优先级，任务紧急程度高被赋予的优先级就高，可被优先执行。这种算法称之为抢占式优先级调度（Preemptive Priority Scheduling, PPS）算法，因为在运行时会根据任务的优先级抢占正在执行的低优先级任务。而最早截止时间优先（Earliest Deadline First, EDF）算法、最低松弛度优先（Least Laxity First, LLF）算法和单调速率调度（Rate Monotonic Scheduling, RMS）算法则是根据任务的截止时间、松弛度和周期等特性来确定调度策略的。因此，选项D是正确答案。
 
 # 第28题
 
@@ -496,10 +475,9 @@ FTP是文件传输协议（File Transfer Protocol），主要用于计算机之�
 ------
 
 WFMS将业务流程中工作如何组织与协调的规则抽象出来，在WFMS的协助下，开发人员遵从一定的编程接口和约定，就可以开发出更具灵活性的事务处理系统，用户无需重新开发即可更改工作流程，以适应业务的变更。WFMS的基本功能体现在以下几个方面：
-
-1. **对工作流进行建模**。即定义工作流，包括具体的活动和规则等，所创建的模型是同时可以被人和计算机所“理解”的，工作流对应现实世界的业务处理过程，不能改变真实业务的处理逻辑。
-2. **工作流执行**。遵循工作流模型来创建和执行实际的工作流，即通过WFMS可以执行多个工作项。
-3. **业务过程的管理和分析**。监控和管理执行中的业务（工作流），例如，进度完成情况和数据所处状态、工作分配与均衡情况等。
+ （1）对工作流进行建模。即定义工作流，包括具体的活动和规则等，所创建的模型是同时可以被人和计算机所“理解”的，工作流对应现实世界的业务处理过程，不能改变真实业务的处理逻辑。
+ （2）工作流执行。遵循工作流模型来创建和执行实际的工作流，即通过WFMS可以执行多个工作项。
+ （3）业务过程的管理和分析。监控和管理执行中的业务（工作流），例如，进度完成情况和数据所处状态、工作分配与均衡情况等。
 
 # 第32题
 
@@ -512,11 +490,7 @@ WFMS将业务流程中工作如何组织与协调的规则抽象出来，在WFMS
 
 ------
 
-敏捷方法是一种**以人为核心、迭代、循序渐进**的开发方法。在敏捷方法中，软件项目的构建被切分成多个子项目，各个子项目成果都经过**测试**，具备集成和可运行的特征。
-
-在敏捷方法中，从开发者的角度来看，主要的关注点有**短平快的会议、小版本发布、较少的文档、合作为重、 客户直接参与、自动化测试、适应性计划调整和结对编程**；
-
-从管理者的角度来看，主要的关注点有**测试驱动开发、持续集成和重构**。
+敏捷方法是一种以人为核心、迭代、循序渐进的开发方法。在敏捷方法中，软件项目的构建被切分成多个子项目，各个子项目成果都经过测试，具备集成和可运行的特征。在敏捷方法中，从开发者的角度来看，主要的关注点有短平快的会议、小版本发布、较少的文档、合作为重、 客户直接参与、自动化测试、适应性计划调整和结对编程；从管理者的角度来看，主要的关注点有测试驱动开发、持续集成和重构。
 
 # 第33题
 
@@ -543,14 +517,13 @@ WFMS将业务流程中工作如何组织与协调的规则抽象出来，在WFMS
 ------
 
 数据中台必备的4个核心能力：
-
-1. **数据汇聚整合能力：**
+ 1、数据汇聚整合能力：
  随着业务的多元化发展，企业内部往往信息部门和数据中心林立，大量系统、功能和应用重复建设，存在巨大的数据资源和人力资源浪费，同时组织壁垒也导致数据孤岛的出现，使得内外部数据难以被全局规划。数据中台需要能够对数据进行整合和完善，提供适用、适配、成熟、完善的一站式大数据平台工具，在简便有效的基础上，实现数据采集、交换等任务配置以及监控管理。
-2. **数据提纯加工能力：**
+ 2、数据提纯加工能力：
  企业需要完整的数据资产体系，也就必须以客户、产品、业务场景为指导原则进行建设，推动业务数据向数据资产的转化。 传统数字化建设往往局限在单个业务流程，而忽视了多业务的关联数据，缺乏对数据的深度理解。
-3. **数据服务可视化：**
+ 3、数据服务可视化：
  为了尽快让数据用起来，数据中台必须提供便捷、快速的数据服务能力，让相关人员能够迅速开发数据应用，支持数据资产场景化能力的快速输出，以响应客户动态的需求。多数受访者还期待数据中台可以提供数据化运营平台，帮助企业快速实现数据资产的可视化分析，提供包括实时流数据分析、预测分析、机器学习等更为高级的服务，为企业数据化运营赋能。
-4. **价值变现方面：**
+ 4、价值变现方面：
  企业内部的各个部门和团队不应该是数据孤岛，打通不同部门和团队之间数据难以整合、标签不成体系、与业务关联断层的现状，数据中台被寄予厚望。企业期待数据中台能助力跨部门的普适性业务价值能力，更好地管理数据应用，将数据洞察变成直接驱动业务行动的核心动能，跨业务场景推进数据实践。
 
 # 第35题
@@ -585,11 +558,7 @@ WFMS将业务流程中工作如何组织与协调的规则抽象出来，在WFMS
 
 ------
 
-模型驱动的体系结构是一种关注模型的软件设计和实现方法，它使用了UML模型的子集来描述系统，并创建不同抽象层次上的模型，其中包括**计算无关模型和平台无关模型**。
-
-- 计算无关模型描述了系统的结构和行为，而不考虑任何具体的执行平台，因此选项A正确。- 平台无关模型则进一步确定了系统的实现细节，但仍然不依赖于特定的执行平台，因此选项C正确。
-- 平台相关模型则考虑了系统的实现细节，如硬件架构、操作系统、编程语言等，并且通常与特定的执行平台直接相关，因此选项D也是正确的。
-- 因此，唯一不属于模型驱动的体系结构的选项是B，即计算相关模型。
+模型驱动的体系结构是一种关注模型的软件设计和实现方法，它使用了UML模型的子集来描述系统，并创建不同抽象层次上的模型，其中包括计算无关模型和平台无关模型。计算无关模型描述了系统的结构和行为，而不考虑任何具体的执行平台，因此选项A正确。平台无关模型则进一步确定了系统的实现细节，但仍然不依赖于特定的执行平台，因此选项C正确。相反，平台相关模型则考虑了系统的实现细节，如硬件架构、操作系统、编程语言等，并且通常与特定的执行平台直接相关，因此选项D也是正确的。因此，唯一不属于模型驱动的体系结构的选项是B，即计算相关模型。
 
 # 第37题
 
@@ -615,7 +584,7 @@ WFMS将业务流程中工作如何组织与协调的规则抽象出来，在WFMS
 
 ------
 
-领域需求是从系统的**应用领域**而不是从系统用户的特定需求中得出的。它们可以自身就是新的功能性需求、对于已有的功能性需求的约束，或者陈述特定的计算机必须如何进行。
+领域需求是从系统的应用领域而不是从系统用户的特定需求中得出的。它们可以自身就是新的功能性需求、对于已有的功能性需求的约束，或者陈述特定的计算机必须如何进行。
 
 # 第39题
 
@@ -644,6 +613,8 @@ WFMS将业务流程中工作如何组织与协调的规则抽象出来，在WFMS
 - D. 网络系统和分布式系统
 
 ------
+
+简单地说，实时系统可以看成对外部事件能够及时响应的系统。这种系统最重要的特征是时间性，也就是实时性，实时系统的正确性不仅依赖于系统计算的逻辑结果，还依赖于产生这些结果的时间。在现实世界中，并非所有的嵌入式系统都具有实时特性，所有的实时系统也不--定都是嵌入式的。但这两种系统并不互相排斥，兼有这两种系统特性的系统称为实时嵌入式系统。
 
 # 第41题
 
@@ -682,7 +653,7 @@ WFMS将业务流程中工作如何组织与协调的规则抽象出来，在WFMS
  （2）互联互通是指通过有线或无线网络、通信协议与接口，实现资源要素之间的数据传递与参数语义交换的层级；
  （3）融合共享是指在互联互通的基础上，利用云计算、大数据等新一代信息通信技术，实现信息协同共享的层级；
  （4）系统集成是指企业实现智能制造过程中的装备、生产单元、生产线、数字化车间、智能工厂之间，以及智能制造系统之间的数据交换和功能互连的层级；
- （5）新兴业态是指基于物理空间不同层级资源要素和数字空间集成与融合的数据、模型及系统，建立的涵盖了认知、诊断、预测及决策等功能，且支持虚实迭代优化的层级。
+ （5）新兴业态是指基于物理空间不同层级资源要素和数字空间集成与融合的数据、模型及系统，建立的涵盖了认知、诊断、预测及决策等功能，且支持虚实迭代优化的层级。 
 
 # 第42题
 
@@ -696,6 +667,7 @@ WFMS将业务流程中工作如何组织与协调的规则抽象出来，在WFMS
 - **D. 设备层、单元层、车间层、企业层和协同层**
 
 ------
+
 
 # 第43题
 
@@ -712,8 +684,6 @@ WFMS将业务流程中工作如何组织与协调的规则抽象出来，在WFMS
 
 ![img](https://image-t.chaiding.com/ruankao/3712f35bebd5b5c376c8755363420327.jpg-ruankao)
 
-工作流参考模型(WorkflowReference Model,WRM)包含 6个基本模块，分别是**工作流执行服务、工作流引擎、流程定义工具、客户端应用、调用应用和管理监控工具。**
-
 # 第44题
 
 **请作答第2个空。**
@@ -726,6 +696,8 @@ WFMS将业务流程中工作如何组织与协调的规则抽象出来，在WFMS
 - D. 网络端应用
 
 ------
+
+![img](https://image-t.chaiding.com/ruankao/82d0a4852bb462e04ee5e1b60ed4cea4.jpg-ruankao)
 
 # 第45题
 
@@ -746,7 +718,7 @@ WFMS将业务流程中工作如何组织与协调的规则抽象出来，在WFMS
 
 **请作答第1个空。**
 
-结构化设计 （Structured Design, SD）是一种**面向数据流**的方法，可进一步细分为（33）两个阶段，它根据（34）和系统结构准则，将DFD转换为系统结构图，用系统结构图来建立系统的物理模型，描述系统分层次的模块结构，以及模块之间的通信与控制关系。
+结构化设计 （Structured Design, SD）是一种面向数据流的方法，可进一步细分为（33）两个阶段，它根据（34）和系统结构准则，将DFD转换为系统结构图，用系统结构图来建立系统的物理模型，描述系统分层次的模块结构，以及模块之间的通信与控制关系。
 
 - **A. 概要设计和详细设计**
 - B. 数据库设计和架构设计
@@ -755,7 +727,7 @@ WFMS将业务流程中工作如何组织与协调的规则抽象出来，在WFMS
 
 ------
 
-SD可以进一步细分为**概要设计和详细设计**两个阶段，它根据**模块独立性**原则和**系统结构**准则，**将数据流图DFD转换为系统结构图**（也称为**模块结构图或控制结构图**），用系统结构图来建立系统的**物理模型**，描述系统分层次的模块结构，以及模块之间的通信与控制关系。SD方法给出了一组帮助系统设计人员在模块层次上区分设计质量的原理与技术，它通常与SA方法衔接起来使用，以DFD为基础得到系统的模块结构。SD方法尤其适用于变换型结构和事务型结构的目标系统。
+SD可以进一步细分为概要设计和详细设计两个阶段，它根据模块独立性原则和系统结构准则，将DFD转换为系统结构图（也称为模块结构图或控制结构图），用系统结构图来建立系统的物理模型，描述系统分层次的模块结构，以及模块之间的通信与控制关系。SD方法给出了一组帮助系统设计人员在模块层次上区分设计质量的原理与技术，它通常与SA方法衔接起来使用，以DFD为基础得到系统的模块结构。SD方法尤其适用于变换型结构和事务型结构的目标系统。
 
 # 第47题
 
@@ -811,6 +783,7 @@ SD可以进一步细分为概要设计和详细设计两个阶段，它根据模
 
 ------
 
+
 # 第50题
 
 **请作答第1个空。**
@@ -825,11 +798,10 @@ SD可以进一步细分为概要设计和详细设计两个阶段，它根据模
 ------
 
 与逆向工程相关的概念有重构、设计恢复、再工程和正向工程。
-
-1. **重构（restructuring）**。重构是指在**同一抽象级别上转换系统描述形式**。
-2. **设计恢复（design recovery）**。设计恢复是指借助工具从已有程序中抽象出有关**数据设计、总体结构设计和过程设计**等方面的信息。
-3. **再工程（re-engineering）**。再工程是指在逆向工程所获得信息的基础上，修改或重构已有的系统，产生系统的一个**新版本**。再工程是对现有系统的重新开发过程，包括**逆向工程、新需求的考虑过程和正向工程**三个步骤。它不仅能从已存在的程序中重新获得设计信息，而且还能使用这些信息来重构现有系统，以改进它的综合质量。在利用再工程重构现有系统的同时，一般会增加新的需求，包括增加新的功能和改善系统的性能。
-4. **正向工程（forward engineering）**。正向工程是指不仅从现有系统中恢复设计信息，而且使用该信息去**改变或重构现有系统**，以改善其整体质量。
+ （1）重构（restructuring）。重构是指在同一抽象级别上转换系统描述形式。
+ （2）设计恢复（design recovery）。设计恢复是指借助工具从已有程序中抽象出有关数据设计、总体结构设计和过程设计等方面的信息。
+ （3）再工程（re-engineering）。再工程是指在逆向工程所获得信息的基础上，修改或重构已有的系统，产生系统的一个新版本。再工程是对现有系统的重新开发过程，包括逆向工程、新需求的考虑过程和正向工程三个步骤。它不仅能从已存在的程序中重新获得设计信息，而且还能使用这些信息来重构现有系统，以改进它的综合质量。在利用再工程重构现有系统的同时，一般会增加新的需求，包括增加新的功能和改善系统的性能。
+ （4）正向工程（forward engineering）。正向工程是指不仅从现有系统中恢复设计信息，而且使用该信息去改变或重构现有系统，以改善其整体质量。
 
 # 第51题
 
@@ -844,7 +816,35 @@ SD可以进一步细分为概要设计和详细设计两个阶段，它根据模
 
 ------
 
+与逆向工程相关的概念有重构、设计恢复、再工程和正向工程。
+ （1）重构（restructuring）。重构是指在同一抽象级别上转换系统描述形式。
+ （2）设计恢复（design recovery）。设计恢复是指借助工具从已有程序中抽象出有关数据设计、总体结构设计和过程设计等方面的信息。
+ （3）再工程（re-engineering）。再工程是指在逆向工程所获得信息的基础上，修改或重构已有的系统，产生系统的一个新版本。再工程是对现有系统的重新开发过程，包括逆向工程、新需求的考虑过程和正向工程三个步骤。它不仅能从已存在的程序中重新获得设计信息，而且还能使用这些信息来重构现有系统，以改进它的综合质量。在利用再工程重构现有系统的同时，一般会增加新的需求，包括增加新的功能和改善系统的性能。
+ （4）正向工程（forward engineering）。正向工程是指不仅从现有系统中恢复设计信息，而且使用该信息去改变或重构现有系统，以改善其整体质量。
+
 # 第52题
+
+**请作答第2个空。**
+
+给定关系模式R（U，F），U={A1，A2，A3，A4}， F={A1→A2A3， A2A3→A4}，那么在关系R中（43）。以下说法错误的是（44）。
+
+- A. 根据F中“A1→A2A3”，可以得出“A1→A2”
+- B. 根据F中“A1→A2A3”，可以得出“A1→A3”
+- **C. 根据F中“A2A3→A4”，可以得出“A2→A4，A3→A4”**
+- D. 根据F中“A1→A2A3，A2A3→A4”，可以得出“A1→A4”
+
+------
+
+根据函数依赖的推导规则可知，对于关系模式R（U，F），如果X→Y，则XY也是候选关键字。因此，要找出R中的候选关键字，需要判断每个属性组合是否能够唯一地确定一条记录。 
+ 根据题意，我们有U={A1，A2，A3，A4}，F={A1→A2A3， A2A3→A4}，现在来分析每个属性组合： 
+ {A1}：由于A1→A2A3，因此{A1}+={A1，A2，A3}，且{A1，A2，A3}能唯一地确定记录。因此，{A1}是一个候选关键字。
+ {A2，A3}：由于A1→A2A3，因此{A2，A3}+={A1，A2，A3}，且{A1，A2，A3}能唯一地确定记录。因此，{A2，A3}是一个候选关键字。
+ {A2，A4}：由于A1→A2A3，但A2、A4之间没有函数依赖关系，因此{A2，A4}不能唯一地确定记录，不是候选关键字。
+ {A3，A4}：与{A2，A4}的情况类似，{A3，A4}也不是候选关键字。
+ 因此，R中只有一个候选关键字，即{A1}。选项 A 是正确答案。 根据函数依赖“A2A3→A4”可以推导出“A2→A4”和“A3→A4”，但是反过来则不成立，不能通过已知的函数依赖推导出“A2A3→A4”。 
+ 因此，答案是 C。
+
+# 第53题
 
 **请作答第1个空。**
 
@@ -857,28 +857,17 @@ SD可以进一步细分为概要设计和详细设计两个阶段，它根据模
 
 ------
 
-根据函数依赖的推导规则可知，对于关系模式R（U，F），如果X→Y，则XY也是候选关键字。因此，要找出R中的候选关键字，需要判断每个属性组合是否能够唯一地确定一条记录。
- 根据题意，我们有U={A1，A2，A3，A4}，F={A1→A2A3， A2A3→A4}，现在来分析每个属性组合：
+根据函数依赖的推导规则可知，对于关系模式R（U，F），如果X→Y，则XY也是候选关键字。因此，要找出R中的候选关键字，需要判断每个属性组合是否能够唯一地确定一条记录。 
+ 根据题意，我们有U={A1，A2，A3，A4}，F={A1→A2A3， A2A3→A4}，现在来分析每个属性组合： 
  {A1}：由于A1→A2A3，因此{A1}+={A1，A2，A3}，且{A1，A2，A3}能唯一地确定记录。因此，{A1}是一个候选关键字。
  {A2，A3}：由于A1→A2A3，因此{A2，A3}+={A1，A2，A3}，且{A1，A2，A3}能唯一地确定记录。因此，{A2，A3}是一个候选关键字。
  {A2，A4}：由于A1→A2A3，但A2、A4之间没有函数依赖关系，因此{A2，A4}不能唯一地确定记录，不是候选关键字。
  {A3，A4}：与{A2，A4}的情况类似，{A3，A4}也不是候选关键字。
- 因此，R中只有一个候选关键字，即{A1}。选项 A 是正确答案。 根据函数依赖“A2A3→A4”
- 可以推导出“A2→A4”和“A3→A4”，但是反过来则不成立，不能通过已知的函数依赖推导出“A2A3→A4”。
+ 因此，R中只有一个候选关键字，即{A1}。选项 A 是正确答案。
+
+
+ 根据函数依赖“A2A3→A4”可以推导出“A2→A4”和“A3→A4”，但是反过来则不成立，不能通过已知的函数依赖推导出“A2A3→A4”。 
  因此，答案是 C。
-
-# 第53题
-
-**请作答第2个空。**
-
-给定关系模式R（U，F），U={A1，A2，A3，A4}， F={A1→A2A3， A2A3→A4}，那么在关系R中（43）。以下说法错误的是（44）。
-
-- A. 根据F中“A1→A2A3”，可以得出“A1→A2”
-- B. 根据F中“A1→A2A3”，可以得出“A1→A3”
-- **C. 根据F中“A2A3→A4”，可以得出“A2→A4，A3→A4”**
-- D. 根据F中“A1→A2A3，A2A3→A4”，可以得出“A1→A4”
-
-------
 
 # 第54题
 
@@ -1003,7 +992,7 @@ SD可以进一步细分为概要设计和详细设计两个阶段，它根据模
 ------
 
 本题考查的是最小生成树相关问题。
- 可以根据普里姆算法，选择某个顶点出发，每次查找离当前集合最近的结点，直到遍历所有结点一次且仅一次，并且无回路，此时找到的就是最小生成树。假设从F顶点出发，此时离F最近的是D结点【找到FD边】，离｛F，D｝最近的是E结点【找到DE边】，离｛F，D，E｝最近的是G结点【找到EG边】，离｛F，D，E，G｝最近的是C结点【找到EC边】，离｛F，D，E，G，C｝最近的是A结点（此时有2条路径AC、AD可选择，都是最小生成树的结果），接下来离｛F，D，E，G，C，A｝结点最近的是B顶点【找到GB边】。最终形成最小生成树可以有两种形态，如下所示：
+ 可以根据普里姆算法，选择某个顶点出发，每次查找离当前集合最近的结点，直到遍历所有结点一次且仅一次，并且无回路，此时找到的就是最小生成树。假设从F顶点出发，此时离F最近的是D结点【找到FD边】，离｛F，D｝最近的是E结点【找到DE边】，离｛F，D，E｝最近的是G结点【找到EG边】，离｛F，D，E，G｝最近的是C结点【找到EC边】，离｛F，D，E，G，C｝最近的是A结点（此时有2条路径AC、AD可选择，都是最小生成树的结果），接下来离｛F，D，E，G，C，A｝结点最近的是B顶点【找到GB边】。最终形成最小生成树可以有两种形态，如下所示： 
 
  ![img](https://image-t.chaiding.com/ruankao/a97e46138a5c7080e315e06b397e5f9e.jpg-ruankao)
  ![img](https://image-t.chaiding.com/ruankao/cd44181cde0401b9707a9ee79a6e08f2.jpg-ruankao)
@@ -1012,7 +1001,7 @@ SD可以进一步细分为概要设计和详细设计两个阶段，它根据模
  如果学校建在A结点，此时B结点离学校最远，有9有公里。
  如果学校建在C结点，此时B结点离学校最远，有7.3有公里。
  如果学校建在D结点，此时B结点离学校最远，有7有公里。
- 如果学校建在E结点，此时B结点离学校最远，有5.5有公里。此时从离它最远的村走到该小所走的优化路径最短。
+ 如果学校建在E结点，此时B结点离学校最远，有5.5有公里。此时从离它最远的村走到该小所走的优化路径最短。 
 
 # 第60题
 
@@ -1029,7 +1018,7 @@ SD可以进一步细分为概要设计和详细设计两个阶段，它根据模
 ------
 
 本题考查的是最小生成树相关问题。
- 可以根据普里姆算法，选择某个顶点出发，每次查找离当前集合最近的结点，直到遍历所有结点一次且仅一次，并且无回路，此时找到的就是最小生成树。假设从F顶点出发，此时离F最近的是D结点【找到FD边】，离｛F，D｝最近的是E结点【找到DE边】，离｛F，D，E｝最近的是G结点【找到EG边】，离｛F，D，E，G｝最近的是C结点【找到EC边】，离｛F，D，E，G，C｝最近的是A结点（此时有2条路径AC、AD可选择，都是最小生成树的结果），接下来离｛F，D，E，G，C，A｝结点最近的是B顶点【找到GB边】。最终形成最小生成树可以有两种形态，如下所示：
+ 可以根据普里姆算法，选择某个顶点出发，每次查找离当前集合最近的结点，直到遍历所有结点一次且仅一次，并且无回路，此时找到的就是最小生成树。假设从F顶点出发，此时离F最近的是D结点【找到FD边】，离｛F，D｝最近的是E结点【找到DE边】，离｛F，D，E｝最近的是G结点【找到EG边】，离｛F，D，E，G｝最近的是C结点【找到EC边】，离｛F，D，E，G，C｝最近的是A结点（此时有2条路径AC、AD可选择，都是最小生成树的结果），接下来离｛F，D，E，G，C，A｝结点最近的是B顶点【找到GB边】。最终形成最小生成树可以有两种形态，如下所示： 
 
  ![img](https://image-t.chaiding.com/ruankao/db868ac1ebd470a94b11cb07de1490d1.jpg-ruankao)
  ![img](https://image-t.chaiding.com/ruankao/c20b7173002554b6996c3919d7a3255d.jpg-ruankao)
@@ -1038,7 +1027,7 @@ SD可以进一步细分为概要设计和详细设计两个阶段，它根据模
  如果学校建在A结点，此时B结点离学校最远，有9有公里。
  如果学校建在C结点，此时B结点离学校最远，有7.3有公里。
  如果学校建在D结点，此时B结点离学校最远，有7有公里。
- 如果学校建在E结点，此时B结点离学校最远，有5.5有公里。此时从离它最远的村走到该小所走的优化路径最短。
+ 如果学校建在E结点，此时B结点离学校最远，有5.5有公里。此时从离它最远的村走到该小所走的优化路径最短。 
 
 # 第61题
 
@@ -1054,11 +1043,10 @@ SD可以进一步细分为概要设计和详细设计两个阶段，它根据模
 ------
 
 本题考查计算机系统性能评价方法。
-
-- **指令执行速度法**：在计算机发展的初期，曾用**加法指令**的运算速度来衡量计算机的速度，速度是计算机的主要性能指标之一。因为加法指令的运算速度大体上可反映出乘法、除法等其他算术运算的速度，而且逻辑运算、转移指令等简单指令的执行时间往往设计成与加法指令相同，因此加法指令的运算速度有一定代表性。表示机器运算速度的单位是KIPS（每秒千条指令）。
-- **等效指令速度法** （ Gibson mix，吉普森混合法）：通过**各类指令在程序中所占的比例**（Wi）进行计算得到的。特点：考虑指令比例不同的问题。
-- **综合理论性能法**（CTP ，Composite Theoretical Performance ）：CTP用MTOPS（Million Theoretical Operations Per Second，每秒百万次理论运算）表示。CTP的估算方法是，首先算出处理部件每个**计算单元**的有效计算率，再按不同字长加以调整，得出该计算单元的理论性能，所有组成该处理部件的计算单元的理论性能之和即为CTP。
-- **基准程序法**：把应用程序中用得**最多、最频繁的那部分核心程序**作为评估计算机**系统性能**的标准程序，称为**基准测试程序**（benchmark）。基准程序法是目前一致承认的测试系统性能的较好方法。
+ 指令执行速度法：在计算机发展的初期，曾用加法指令的运算速度来衡量计算机的速度，速度是计算机的主要性能指标之一。因为加法指令的运算速度大体上可反映出乘法、除法等其他算术运算的速度，而且逻辑运算、转移指令等简单指令的执行时间往往设计成与加法指令相同，因此加法指令的运算速度有一定代表性。表示机器运算速度的单位是KIPS（每秒千条指令）。
+ 等效指令速度法 （ Gibson mix，吉普森混合法）：通过各类指令在程序中所占的比例（Wi）进行计算得到的。特点：考虑指令比例不同的问题。
+ 综合理论性能法（CTP ，Composite Theoretical Performance ）：CTP用MTOPS（Million Theoretical Operations Per Second，每秒百万次理论运算）表示。CTP的估算方法是，首先算出处理部件每个计算单元的有效计算率，再按不同字长加以调整，得出该计算单元的理论性能，所有组成该处理部件的计算单元的理论性能之和即为CTP。
+ 基准程序法：把应用程序中用得最多、最频繁的那部分核心程序作为评估计算机系统性能的标准程序，称为基准测试程序（benchmark）。基准程序法是目前一致承认的测试系统性能的较好方法。
 
 # 第62题
 
@@ -1072,6 +1060,12 @@ SD可以进一步细分为概要设计和详细设计两个阶段，它根据模
 - D. 基准程序法
 
 ------
+
+本题考查计算机系统性能评价方法。
+ 指令执行速度法：在计算机发展的初期，曾用加法指令的运算速度来衡量计算机的速度，速度是计算机的主要性能指标之一。因为加法指令的运算速度大体上可反映出乘法、除法等其他算术运算的速度，而且逻辑运算、转移指令等简单指令的执行时间往往设计成与加法指令相同，因此加法指令的运算速度有一定代表性。表示机器运算速度的单位是KIPS（每秒千条指令）。
+ 等效指令速度法 （ Gibson mix，吉普森混合法）：通过各类指令在程序中所占的比例（Wi）进行计算得到的。特点：考虑指令比例不同的问题。
+ 综合理论性能法（CTP ，Composite Theoretical Performance ）：CTP用MTOPS（Million Theoretical Operations Per Second，每秒百万次理论运算）表示。CTP的估算方法是，首先算出处理部件每个计算单元的有效计算率，再按不同字长加以调整，得出该计算单元的理论性能，所有组成该处理部件的计算单元的理论性能之和即为CTP。
+ 基准程序法：把应用程序中用得最多、最频繁的那部分核心程序作为评估计算机系统性能的标准程序，称为基准测试程序（benchmark）。基准程序法是目前一致承认的测试系统性能的较好方法。
 
 # 第63题
 
@@ -1087,10 +1081,7 @@ SD可以进一步细分为概要设计和详细设计两个阶段，它根据模
 ------
 
 本题考查计算机信息系统的安全体系。
- 信息系统的安全是个复杂的综合体，涉及系统的方方面面
-
-- **实体安全**是指保护计算机设备、设施和其他媒体免遭地震、水灾、火灾、有害气体和其他环境事故（例如，电磁辐射等）破坏的措施和过程。
-- **运行安全**是计算机信息系统安全的重要环节，其实质是保证系统的正常运行，不因偶然的或恶意的侵扰而遭到破坏，使系统可靠、连续地运行，服务不被中断。
+ 信息系统的安全是个复杂的综合体，涉及系统的方方面面， 其中实体安全是指保护计算机设备、设施和其他媒体免遭地震、水灾、火灾、有害气体和其他环境事故（例如，电磁辐射等）破坏的措施和过程。运行安全是计算机信息系统安全的重要环节，其实质是保证系统的正常运行，不因偶然的或恶意的侵扰而遭到破坏，使系统可靠、连续地运行，服务不被中断。
 
 # 第64题
 
@@ -1104,6 +1095,9 @@ SD可以进一步细分为概要设计和详细设计两个阶段，它根据模
 - D. 实体安全
 
 ------
+
+本题考查计算机信息系统的安全体系。
+ 信息系统的安全是个复杂的综合体，涉及系统的方方面面， 其中实体安全是指保护计算机设备、设施和其他媒体免遭地震、水灾、火灾、有害气体和其他环境事故（例如，电磁辐射等）破坏的措施和过程。运行安全是计算机信息系统安全的重要环节，其实质是保证系统的正常运行，不因偶然的或恶意的侵扰而遭到破坏，使系统可靠、连续地运行，服务不被中断。
 
 # 第65题
 
@@ -1120,11 +1114,6 @@ SD可以进一步细分为概要设计和详细设计两个阶段，它根据模
 
 ![img](https://image-t.chaiding.com/ruankao/0c9f3f82b321896a97b286c5cd26ce75.jpg-ruankao)
 
-- 高技术水平，低业务价值：集成
-- 高技术水平，高业务价值：改造
-- 低技术水平，低技术价值：淘汰
-- 低技术水平，高业务价值：继承
-
 # 第66题
 
 **请作答第1个空。**
@@ -1134,8 +1123,8 @@ Requirements validation is the process of checking that requirements actually de
  1.（71）: A user may think that a system is needed to perform certain function. However, further thought and analysis may identify additional or different functions that are required. Systems have diverse stakeholders with different needs and any set of requirements is inevitably a compromise across the stakeholder community.
  2.（72）: Requirements in the document should not conflict. That is, there should not be contradictory constraints or different descriptions of the same system function.
  3.（73）: The requirements document should include requirements that define all functions and the constraints intended by the system user.
- 4. Realism checks: Using knowledge of existing technology, the requirements should be checked to ensure that they can actually be implemented. These checks should also take account of the（74）for the system development.
- 5. Verifiability: To reduce the potential for dispute between customer and contractor, system requirements should always be written so that they are verifiable. This means that you should be able to write a set of tests that can demonstrate that the delivered system meets each specified（75）.
+ \4. Realism checks: Using knowledge of existing technology, the requirements should be checked to ensure that they can actually be implemented. These checks should also take account of the（74）for the system development.
+ \5. Verifiability: To reduce the potential for dispute between customer and contractor, system requirements should always be written so that they are verifiable. This means that you should be able to write a set of tests that can demonstrate that the delivered system meets each specified（75）.
 
 - A. Security checks
 - **B. Validity checks**
@@ -1144,13 +1133,13 @@ Requirements validation is the process of checking that requirements actually de
 
 ------
 
-**需求验证**是检查需求是否实际定义了客户真正想要的系统的过程。它与分析重叠，因为它关注的是发现需求中的问题。需求验证是很重要的，因为当这些问题在开发过程中或系统投入使用后被发现时，需求文件中的错误会导致大量的返工成本。通过改变系统来修复需求问题的成本通常比修复设计或编码错误要大得多。原因是对需求的改变通常意味着系统的设计和实施也必须改变。此外，还必须重新测试系统。
+需求验证是检查需求是否实际定义了客户真正想要的系统的过程。它与分析重叠，因为它关注的是发现需求中的问题。需求验证是很重要的，因为当这些问题在开发过程中或系统投入使用后被发现时，需求文件中的错误会导致大量的返工成本。通过改变系统来修复需求问题的成本通常比修复设计或编码错误要大得多。原因是对需求的改变通常意味着系统的设计和实施也必须改变。此外，还必须重新测试系统。
  在需求验证过程中，应该对需求文件中的需求进行不同类型的检查。这些检查包括：
- 1.（） **有效性检查Validity checks**:用户可能认为需要一个系统来执行某些功能。然而，进一步的思考和分析可能会发现需要额外的或不同的功能。系统有不同的利益相关者，有不同的需求，任何一套需求都不可避免地是整个利益相关者群体的妥协。
- 2.（）**一致性检查Consistency checks**:文件中的要求不应冲突。也就是说，不应该有相互矛盾的约束或对同一系统功能的不同描述。
- 3.（）**完整性检查Completeness checks**:需求文件应该包括定义所有功能的需求和系统用户所期望的约束。
- 4. 现实性检查。利用现有技术的知识，应该对需求进行检查，以确保它们能够真正被实现。这些检查也应该考虑到系统开发的（）**模型models**。
- 5. 可验证性。为了减少客户和承包商之间潜在的争议，系统需求的编写应该始终是可验证的。这意味着你应该能够编写一套测试，以证明所交付的系统符合每一个指定的（）**需求requirement**。
+ 1.（）:用户可能认为需要一个系统来执行某些功能。然而，进一步的思考和分析可能会发现需要额外的或不同的功能。系统有不同的利益相关者，有不同的需求，任何一套需求都不可避免地是整个利益相关者群体的妥协。
+ 2.（）:文件中的要求不应冲突。也就是说，不应该有相互矛盾的约束或对同一系统功能的不同描述。
+ 3.（）:需求文件应该包括定义所有功能的需求和系统用户所期望的约束。
+ \4. 现实性检查。利用现有技术的知识，应该对需求进行检查，以确保它们能够真正被实现。这些检查也应该考虑到系统开发的（）。
+ \5. 可验证性。为了减少客户和承包商之间潜在的争议，系统需求的编写应该始终是可验证的。这意味着你应该能够编写一套测试，以证明所交付的系统符合每一个指定的（）。 
  （1）A. 安全检查           B. 有效性检查        C. 一致性检查         D. 完整性检查
  （2）A. 安全检查            B. 安全检查          C. 一致性检查         D. 可用性检查
  （3）A. 一致性检查         B. 可用性检查        C. 操作性检查         D. 完整性检查
@@ -1166,8 +1155,8 @@ Requirements validation is the process of checking that requirements actually de
  1.（71）: A user may think that a system is needed to perform certain function. However, further thought and analysis may identify additional or different functions that are required. Systems have diverse stakeholders with different needs and any set of requirements is inevitably a compromise across the stakeholder community.
  2.（72）: Requirements in the document should not conflict. That is, there should not be contradictory constraints or different descriptions of the same system function.
  3.（73）: The requirements document should include requirements that define all functions and the constraints intended by the system user.
- 4. Realism checks: Using knowledge of existing technology, the requirements should be checked to ensure that they can actually be implemented. These checks should also take account of the（74）for the system development.
- 5. Verifiability: To reduce the potential for dispute between customer and contractor, system requirements should always be written so that they are verifiable. This means that you should be able to write a set of tests that can demonstrate that the delivered system meets each specified（75）.
+ \4. Realism checks: Using knowledge of existing technology, the requirements should be checked to ensure that they can actually be implemented. These checks should also take account of the（74）for the system development.
+ \5. Verifiability: To reduce the potential for dispute between customer and contractor, system requirements should always be written so that they are verifiable. This means that you should be able to write a set of tests that can demonstrate that the delivered system meets each specified（75）.
 
 - A. Security checks
 - B. Safety checks
@@ -1175,6 +1164,19 @@ Requirements validation is the process of checking that requirements actually de
 - D. Usability checks
 
 ------
+
+需求验证是检查需求是否实际定义了客户真正想要的系统的过程。它与分析重叠，因为它关注的是发现需求中的问题。需求验证是很重要的，因为当这些问题在开发过程中或系统投入使用后被发现时，需求文件中的错误会导致大量的返工成本。通过改变系统来修复需求问题的成本通常比修复设计或编码错误要大得多。原因是对需求的改变通常意味着系统的设计和实施也必须改变。此外，还必须重新测试系统。
+ 在需求验证过程中，应该对需求文件中的需求进行不同类型的检查。这些检查包括：
+ 1.（）:用户可能认为需要一个系统来执行某些功能。然而，进一步的思考和分析可能会发现需要额外的或不同的功能。系统有不同的利益相关者，有不同的需求，任何一套需求都不可避免地是整个利益相关者群体的妥协。
+ 2.（）:文件中的要求不应冲突。也就是说，不应该有相互矛盾的约束或对同一系统功能的不同描述。
+ 3.（）:需求文件应该包括定义所有功能的需求和系统用户所期望的约束。
+ \4. 现实性检查。利用现有技术的知识，应该对需求进行检查，以确保它们能够真正被实现。这些检查也应该考虑到系统开发的（）。
+ \5. 可验证性。为了减少客户和承包商之间潜在的争议，系统需求的编写应该始终是可验证的。这意味着你应该能够编写一套测试，以证明所交付的系统符合每一个指定的（）。 
+ （1）A. 安全检查           B. 有效性检查        C. 一致性检查         D. 完整性检查
+ （2）A. 安全检查            B. 安全检查          C. 一致性检查         D. 可用性检查
+ （3）A. 一致性检查         B. 可用性检查        C. 操作性检查         D. 完整性检查
+ （4）A. 工具       B. 测试        C. 模型        D. 预算和时间表
+ （5）A. 需求       B. 模型        C. 设计        D. 实施
 
 # 第68题
 
@@ -1185,8 +1187,8 @@ Requirements validation is the process of checking that requirements actually de
  1.（71）: A user may think that a system is needed to perform certain function. However, further thought and analysis may identify additional or different functions that are required. Systems have diverse stakeholders with different needs and any set of requirements is inevitably a compromise across the stakeholder community.
  2.（72）: Requirements in the document should not conflict. That is, there should not be contradictory constraints or different descriptions of the same system function.
  3.（73）: The requirements document should include requirements that define all functions and the constraints intended by the system user.
- 4. Realism checks: Using knowledge of existing technology, the requirements should be checked to ensure that they can actually be implemented. These checks should also take account of the（74）for the system development.
- 5. Verifiability: To reduce the potential for dispute between customer and contractor, system requirements should always be written so that they are verifiable. This means that you should be able to write a set of tests that can demonstrate that the delivered system meets each specified（75）.
+ \4. Realism checks: Using knowledge of existing technology, the requirements should be checked to ensure that they can actually be implemented. These checks should also take account of the（74）for the system development.
+ \5. Verifiability: To reduce the potential for dispute between customer and contractor, system requirements should always be written so that they are verifiable. This means that you should be able to write a set of tests that can demonstrate that the delivered system meets each specified（75）.
 
 - A. Consistency checks
 - B. Usability checks
@@ -1194,6 +1196,19 @@ Requirements validation is the process of checking that requirements actually de
 - **D. Completeness checks**
 
 ------
+
+需求验证是检查需求是否实际定义了客户真正想要的系统的过程。它与分析重叠，因为它关注的是发现需求中的问题。需求验证是很重要的，因为当这些问题在开发过程中或系统投入使用后被发现时，需求文件中的错误会导致大量的返工成本。通过改变系统来修复需求问题的成本通常比修复设计或编码错误要大得多。原因是对需求的改变通常意味着系统的设计和实施也必须改变。此外，还必须重新测试系统。
+ 在需求验证过程中，应该对需求文件中的需求进行不同类型的检查。这些检查包括：
+ 1.（）:用户可能认为需要一个系统来执行某些功能。然而，进一步的思考和分析可能会发现需要额外的或不同的功能。系统有不同的利益相关者，有不同的需求，任何一套需求都不可避免地是整个利益相关者群体的妥协。
+ 2.（）:文件中的要求不应冲突。也就是说，不应该有相互矛盾的约束或对同一系统功能的不同描述。
+ 3.（）:需求文件应该包括定义所有功能的需求和系统用户所期望的约束。
+ \4. 现实性检查。利用现有技术的知识，应该对需求进行检查，以确保它们能够真正被实现。这些检查也应该考虑到系统开发的（）。
+ \5. 可验证性。为了减少客户和承包商之间潜在的争议，系统需求的编写应该始终是可验证的。这意味着你应该能够编写一套测试，以证明所交付的系统符合每一个指定的（）。 
+ （1）A. 安全检查           B. 有效性检查        C. 一致性检查         D. 完整性检查
+ （2）A. 安全检查            B. 安全检查          C. 一致性检查         D. 可用性检查
+ （3）A. 一致性检查         B. 可用性检查        C. 操作性检查         D. 完整性检查
+ （4）A. 工具       B. 测试        C. 模型        D. 预算和时间表
+ （5）A. 需求       B. 模型        C. 设计        D. 实施
 
 # 第69题
 
@@ -1204,8 +1219,8 @@ Requirements validation is the process of checking that requirements actually de
  1.（71）: A user may think that a system is needed to perform certain function. However, further thought and analysis may identify additional or different functions that are required. Systems have diverse stakeholders with different needs and any set of requirements is inevitably a compromise across the stakeholder community.
  2.（72）: Requirements in the document should not conflict. That is, there should not be contradictory constraints or different descriptions of the same system function.
  3.（73）: The requirements document should include requirements that define all functions and the constraints intended by the system user.
- 4. Realism checks: Using knowledge of existing technology, the requirements should be checked to ensure that they can actually be implemented. These checks should also take account of the（74）for the system development.
- 5. Verifiability: To reduce the potential for dispute between customer and contractor, system requirements should always be written so that they are verifiable. This means that you should be able to write a set of tests that can demonstrate that the delivered system meets each specified（75）.
+ \4. Realism checks: Using knowledge of existing technology, the requirements should be checked to ensure that they can actually be implemented. These checks should also take account of the（74）for the system development.
+ \5. Verifiability: To reduce the potential for dispute between customer and contractor, system requirements should always be written so that they are verifiable. This means that you should be able to write a set of tests that can demonstrate that the delivered system meets each specified（75）.
 
 - A. tools
 - B. tests
@@ -1213,6 +1228,19 @@ Requirements validation is the process of checking that requirements actually de
 - D. budget and schedule
 
 ------
+
+需求验证是检查需求是否实际定义了客户真正想要的系统的过程。它与分析重叠，因为它关注的是发现需求中的问题。需求验证是很重要的，因为当这些问题在开发过程中或系统投入使用后被发现时，需求文件中的错误会导致大量的返工成本。通过改变系统来修复需求问题的成本通常比修复设计或编码错误要大得多。原因是对需求的改变通常意味着系统的设计和实施也必须改变。此外，还必须重新测试系统。
+ 在需求验证过程中，应该对需求文件中的需求进行不同类型的检查。这些检查包括：
+ 1.（）:用户可能认为需要一个系统来执行某些功能。然而，进一步的思考和分析可能会发现需要额外的或不同的功能。系统有不同的利益相关者，有不同的需求，任何一套需求都不可避免地是整个利益相关者群体的妥协。
+ 2.（）:文件中的要求不应冲突。也就是说，不应该有相互矛盾的约束或对同一系统功能的不同描述。
+ 3.（）:需求文件应该包括定义所有功能的需求和系统用户所期望的约束。
+ \4. 现实性检查。利用现有技术的知识，应该对需求进行检查，以确保它们能够真正被实现。这些检查也应该考虑到系统开发的（）。
+ \5. 可验证性。为了减少客户和承包商之间潜在的争议，系统需求的编写应该始终是可验证的。这意味着你应该能够编写一套测试，以证明所交付的系统符合每一个指定的（）。 
+ （1）A. 安全检查           B. 有效性检查        C. 一致性检查         D. 完整性检查
+ （2）A. 安全检查            B. 安全检查          C. 一致性检查         D. 可用性检查
+ （3）A. 一致性检查         B. 可用性检查        C. 操作性检查         D. 完整性检查
+ （4）A. 工具       B. 测试        C. 模型        D. 预算和时间表
+ （5）A. 需求       B. 模型        C. 设计        D. 实施
 
 # 第70题
 
@@ -1223,8 +1251,8 @@ Requirements validation is the process of checking that requirements actually de
  1.（71）: A user may think that a system is needed to perform certain function. However, further thought and analysis may identify additional or different functions that are required. Systems have diverse stakeholders with different needs and any set of requirements is inevitably a compromise across the stakeholder community.
  2.（72）: Requirements in the document should not conflict. That is, there should not be contradictory constraints or different descriptions of the same system function.
  3.（73）: The requirements document should include requirements that define all functions and the constraints intended by the system user.
- 4. Realism checks: Using knowledge of existing technology, the requirements should be checked to ensure that they can actually be implemented. These checks should also take account of the（74）for the system development.
- 5. Verifiability: To reduce the potential for dispute between customer and contractor, system requirements should always be written so that they are verifiable. This means that you should be able to write a set of tests that can demonstrate that the delivered system meets each specified（75）.
+ \4. Realism checks: Using knowledge of existing technology, the requirements should be checked to ensure that they can actually be implemented. These checks should also take account of the（74）for the system development.
+ \5. Verifiability: To reduce the potential for dispute between customer and contractor, system requirements should always be written so that they are verifiable. This means that you should be able to write a set of tests that can demonstrate that the delivered system meets each specified（75）.
 
 - **A. requirement**
 - B. model
@@ -1232,3 +1260,16 @@ Requirements validation is the process of checking that requirements actually de
 - D. implementation
 
 ------
+
+需求验证是检查需求是否实际定义了客户真正想要的系统的过程。它与分析重叠，因为它关注的是发现需求中的问题。需求验证是很重要的，因为当这些问题在开发过程中或系统投入使用后被发现时，需求文件中的错误会导致大量的返工成本。通过改变系统来修复需求问题的成本通常比修复设计或编码错误要大得多。原因是对需求的改变通常意味着系统的设计和实施也必须改变。此外，还必须重新测试系统。
+ 在需求验证过程中，应该对需求文件中的需求进行不同类型的检查。这些检查包括：
+ 1.（）:用户可能认为需要一个系统来执行某些功能。然而，进一步的思考和分析可能会发现需要额外的或不同的功能。系统有不同的利益相关者，有不同的需求，任何一套需求都不可避免地是整个利益相关者群体的妥协。
+ 2.（）:文件中的要求不应冲突。也就是说，不应该有相互矛盾的约束或对同一系统功能的不同描述。
+ 3.（）:需求文件应该包括定义所有功能的需求和系统用户所期望的约束。
+ \4. 现实性检查。利用现有技术的知识，应该对需求进行检查，以确保它们能够真正被实现。这些检查也应该考虑到系统开发的（）。
+ \5. 可验证性。为了减少客户和承包商之间潜在的争议，系统需求的编写应该始终是可验证的。这意味着你应该能够编写一套测试，以证明所交付的系统符合每一个指定的（）。 
+ （1）A. 安全检查           B. 有效性检查        C. 一致性检查         D. 完整性检查
+ （2）A. 安全检查            B. 安全检查          C. 一致性检查         D. 可用性检查
+ （3）A. 一致性检查         B. 可用性检查        C. 操作性检查         D. 完整性检查
+ （4）A. 工具       B. 测试        C. 模型        D. 预算和时间表
+ （5）A. 需求       B. 模型        C. 设计        D. 实施

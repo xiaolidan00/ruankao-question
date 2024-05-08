@@ -40,6 +40,8 @@
               const m = it.title.match(/[（\()]([0-9]+)[）\)]/);
               if (m) {
                 it.index = Number(m[1]) || 0;
+              } else {
+                it.index = 0;
               }
             });
             list.sort((a, b) => a.index - b.index);
@@ -56,7 +58,7 @@
             });
           });
       }
-      getData('2023.json');
+      getData('2021.json');
     </script>
   </body>
 </html>
