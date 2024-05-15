@@ -21,9 +21,9 @@
   <body>
     <div id="content"></div>
     <script>
-      const content = document.getElementById('content');
+      const content = document.getElementById("content");
       //https://image-t.chaiding.com/ruankao/e3624a2d09e171f54e061c341d1705a4.jpg-ruankao
-      const rUrl = 'https://image-t.chaiding.com';
+      const rUrl = "https://image-t.chaiding.com";
       function getData(url) {
         fetch(url)
           .then((res) => res.json())
@@ -31,13 +31,15 @@
             const list = res.data.questionList;
 
             list.forEach((a, i) => {
-              const dom = document.createElement('div');
-              dom.innerHTML = `<h1>第${i + 1}题</h1>${a.title}<hr/>${a.analyze}`;
+              const dom = document.createElement("div");
+              dom.innerHTML = `<h1>第${i + 1}题</h1>${a.title}<hr/>${
+                a.analyze
+              }`;
               content.appendChild(dom);
             });
           });
       }
-      getData('2018.json');
+      getData("2021.json");
     </script>
   </body>
 </html>
